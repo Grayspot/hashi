@@ -1,0 +1,15 @@
+image: "ruby:2.7"
+
+stages:
+  - exec
+
+execution:
+  stage: exec
+
+  script:
+
+  artifacts:
+    paths:
+    - main.rb
+    - assets/*
+    - src/*
