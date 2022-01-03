@@ -1,0 +1,277 @@
+---
+#MENU PRINCIPAL
+game_title: HASHI
+play_mode: Play
+mode_tutorial: Tutorial
+mode_freeplay: Freeplay
+mode_adv: Adventure
+mode_rank: Ranked
+mode_test: Test
+lvl_easy: Easy
+lvl_medium: Medium
+lvl_difficult: Difficult
+leaders: Leaderboard
+settings: Settings
+w_main_menu: Play Menu - Hashi
+w_choix_grille : Grid Selection - Hashi
+w_settings: Paramètres - Hashi
+exit: Exit
+#PARAMETRES
+back: Back
+res: "Resolution :"
+lang: "Language :"
+theme: "Theme :"
+fscr: "Full Screen :"
+apply: Apply
+#A PROPOS
+about_title: Credits
+about: "This application represents the results of a group project in 6th semester of 3rd year of computer science in University of Le Mans. The project consisted of creating a game in Ruby. The game itself is a puzzle of style Hashi. Our objective was to create a fully functional game with support of different visuall cues.\n
+ Our team:\n
+      \t- DEROUAULT Baptiste,\n
+      \t- CHAUVIN Lucien,\n
+      \t- DUBIN Baptiste,\n
+      \t- GIROD Valentin,\n
+      \t- MOTTIER Anaïs,\n
+      \t- RENARD Dorian,\n
+      \t- TSAMARAYEV Moustapha,\n
+      \t- ZHENG Haoran\n
+ Thank you for testing out our game."
+#CLASSEMENT
+w_ranked: Leaderboard - Hashi
+display: Display
+ranked: Leaderboard
+nickname: Name
+raz: Reset
+time: Time
+#GRILLE
+btnJouer: Play
+btnCheck : Check
+btnMontrer : Display
+btnHypothese : Checkpoint
+btnRetour : Return
+btnAides : Help
+aucuneErreur: Il y a pour l'instant aucune erreur
+gagne: Vous avez gagné en
+hypothese: Hypothèse ! Création d'un point de sauvegarde !
+ilY : Il y a
+erreur : erreur(s)
+ile: îles
+pont: ponts
+ingame: Playing - Hashi
+#GRILLECLASSE
+sauvegarde: Voulez-vous sauvegarder votre score ?
+pseudo: Saisir le pseudo
+augmentationCheck: Si vous avez des erreurs vous allez avoir une augmentation de
+ajoutShow: Êtes-vous sur d'ajouter
+afficherShow: pour afficher les erreurs!
+ajoutAides: Êtes-vous sur d'ajouter de
+entreSecAides: à
+afficherAides: pour afficher les aides!
+#ADVENTURE
+w_adv_title: Adventure - Hashi
+adv_title: Adventure
+reset_message: "Are you sure you want to reset your progression? You will have to start from zero."
+dialog_yes: 'Yes'
+dialog_no: 'No'
+level: "Level "
+#############
+# TUTORIALS #
+#############
+w_tutorial: Tutorial - Hashi
+tutorial_description: "Hello. This is the tutorial section.\nIf you're new to the game, you should probably check out the basic tutorial\nin which we explain the rules of Hashi and the interface of the game.\nIf you're an experienced player and want to learn about more advanced techniques,\nyou should probably take a peek at our advanced tutorial."
+tutorial_title: Tutorial
+try_me: Try it!
+basicTitle: Basic Tutorial
+advancedTitle: Advanced Tutorial
+PopUp1:
+  -
+    "Ile de valeur 3 à deux voisins."
+  -
+    "L'île en haut à gauche, de valeur 3, est notre île de référence, elle a une valeur de 3 et n'a que 2 voisins. Il y a donc deux solutions possibles (voir les deux images ci-contre). Les deux solutions nous permettent de savoir que chaque île voisine aura au minimum un pont vers l'île de référence."
+  -
+    "./ressources/img/Tutoriel/PopUp1.png"
+PopUp2:
+  -
+    "Ile de valeur 3 à trois voisins."
+  -
+    "L'île de valeur 3 est notre île de référence, elle a trois voisins. Si l'on résolve l'île comme sur l'image ci-contre, les deux îles reliées à l'île de reférence ne pourront plus être reliées à d'autres îles du puzzle. De plus l'île 2 du bas sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp2.png"
+PopUp3:
+  -
+    "Ile de valeur 3 à trois voisins."
+  -
+    "Notre île de référence est la même, celle de valeur 3. Si l'on résolve l'île comme sur l'image ci-contre, les deux îles reliées à l'île de référence ne pourront plus être reliées à d'autres îles du puzzle. De plus l'île 2 à gauche sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp3.png"
+PopUp4:
+  -
+    "Ile de valeur 4 à trois voisins."
+  -
+    "L'île de valeur 4 du haut, est notre île de référence, elle a trois voisins. Si l'on résolve l'île comme sur l'image ci-contre, les deux îles reliées à l'île de référence ne pourront plus être reliées à d'autres îles du puzzle. De plus l'île 4 du bas sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp4.png"
+PopUp5:
+  -
+    "Ile de valeur 2 à deux voisins."
+  -
+    "L'île de valeur 2 du milieu est notre île de référence, elle a deux voisins. Si l'on résolve l'île comme sur l'image ci-contre, l'île reliée à l'île de référence ne pourra plus être reliée à d'autres îles du puzzle. De plus l'île 4 à gauche sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp5.png"
+PopUp6:
+  -
+    "Ile de valeur 4 à trois voisins."
+  -
+    "L'île de valeur 4 est notre île de référence, elle a trois voisins. Il y a deux solutions possible (voir les images ci-contre). Les deux solutions nous permettent de savoir que chaque île voisine aura au minimum un pont vers l'île de référence."
+  -
+    "./ressources/img/Tutoriel/PopUp6.png"
+PopUp7:
+  -
+    "Ile de valeur 2 à deux voisins."
+  -
+    "L'île de valeur 2 est notre île de référence, elle a deux voisins. Il y a deux solutions possible (voir les images ci-contre). Les deux solutions nous permettent de savoir que il y aura au moins 1 pont vers l'île de valeur 4."
+  -
+    "./ressources/img/Tutoriel/PopUp1.png"
+PopUp8:
+  -
+    "Ile de valeur 2 à trois voisins."
+  -
+    "L'île de valeur 2 du milieu est notre île de référence, elle a trois voisins. Si l'on résolve l'île comme sur l'image ci-contre, les deux îles reliées à l'île de référence ne pourront plus être reliées à d'autres îles du puzzle. De plus l'île 4 à gauche sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp8.png"
+# AIDES
+titreFenetre: Help - Hashi
+titrePrincipal: Help
+btnBasic: Basic Techniques
+btnIsolation: Isolation techniques
+btnAdvanced: Advanced techniques
+nonAideTitre: No tips found
+nonAideTexte: Either all the tips were already given, or there's no tips for this specific level.
+next: Next
+
+aidesBasicsTitre:
+  -
+    "Island with 1 neighbor"
+  -
+    "Islands with 3 in the corner, 5 on the side and 7 in the middle"
+  -
+    "Special cases of 3 in the corner, 5 on the side and 7 in the middle"
+  -
+    "Special case of 4 on a side"
+  -
+    "Special case of 6 in the middle"
+aidesBasics:
+  -
+    "The island with the index of 2, located in the bottom row, has only one neighbor that is to the left, so 2 bridges must be place between these islands. Also, the island with the index of 1, located in the upper right, also has only one neighbor located on its left, which means that only one bridge must be place between these islands. These 2 islands are now complete, so we can mark them with a blue color."
+  -
+    "./ressources/img/Aide/BasicAide1.png"
+  -
+    "When an island located in a corner contains a 3, it must necessarily have 2 neighbors, 1 neighbor connected with 1 bridge and the other with 2. This means that each neighbor is systematically connected with the island 3, so 1 bridge to each neighbor can already be drawn. The same applies to an island with index 7 in the middle of the puzzle and having 4 neighbors, and to an island with index 5 on one side of the puzzle and having 3 neighbors."
+  -
+    "./ressources/img/Aide/BasicAide2.png"
+  -
+    "If an island with the index 3 is located in a corner and one of its neighbors is an island with index 1 then we can directly draw a bridge to this neighbor and 2 to the other neighbor. The same reasoning applies to an island with index 7 located in the middle of the puzzle and having 4 neighbors and to an island with index 5 located on one side of the puzzle and having 3 neighbors."
+  -
+    "./ressources/img/Aide/BasicAide3.png"
+  -
+    "In the example below we can see an island with index 4 located at the top right. This island is not located on the side of the puzzle but since it has only 3 neighbors including the 2 neighbors on the sides with index 1, it can be considered as such. So we can draw the 4 bridges as follows: 2 down, and 1 to each island on the sides."
+  -
+    "./ressources/img/Aide/BasicAide4.png"
+  -
+    "On the example let's imagine that the island with index 6, having 4 neighbors, is not connected with the island with the index 1 located above it then, 2 bridges can be drawn to the 3 other neighbors. But if this island is connected with the island with the index of 1 then, at least 1 bridge is connected to the 3 other neighbors. So we can say that in both cases, at least 1 bridge is drawn to the 3 other neighbors."
+  -
+    "./ressources/img/Aide/BasicAide5.png"
+aidesIsolationsTitre:
+  -
+    "Isolation of the 2 islands segment"
+  -
+    "Isolation of the 3 islands segment"
+  -
+    "Isolation when a segment connects to an island"
+  -
+    "Isolation when a segment connects to another segment"
+aidesIsolations:
+  -
+    "If we connect the island with index 1, located on the right side, and the other island with the same number located just below, as shown on the left image, then these islands will become isolated which is against the rules of Hashi. So it must be connected to another neighbor. And for the same reasons we can't connect with a double bridge the 2 islands with the index 2 located at the bottom left."
+  -
+    "./ressources/img/Aide/IsolationAide1.png"
+  -
+    "On the example on the left, let's take the island with index 2 located on the bottom right, it can't be connected with 2 bridges as shown below because it would then become an isolated segment which is not allowed in the Hashi rules, so there must be at least one bridge with the island located on its left. Also not the island with index 3 located in the center left which cannot be connected with 3 bridges for the same reasons."
+  -
+    "./ressources/img/Aide/IsolationAide2.png"
+  -
+    "We can see that a segment consisting of several completed islands except the island with the index 3 located on the left side, is made. If we connect this island with its bottom neighbor, as shown in the left picture, which is an island with index 1 then we will end up with an isolated segment which is not allowed in the Hashi rules. So we have to connect it with the island of index 3 located on its right, as shown on the right."
+  -
+    "./ressources/img/Aide/IsolationAide3.png"
+  -
+    "In the example on the left, there are 2 segments consisting of 7 islands. The first one has all its islands completed except the one with the index 6, and the second one also has all its islands completed except the one with the index 3. Both of them are missing 2 bridges to finish their path. However if we connect the 2 segments together as shown in the picture then we end up with a large isolated segment, which is not allowed by the Hashi rules. This means that at least 1 bridge of the second segment must be connected to the island below as shown in the image on the right."
+  -
+    "./ressources/img/Aide/IsolationAide4.png"
+aidesAdvancedTitre:
+  -
+    "Isolating a segment by blocking a bridge"
+  -
+    "Isolating a segment by adding a bridge"
+  -
+    "Isolating an island with bridges"
+  -
+    "Creating bridge connection conflicts"
+aidesAdvanced:
+  -
+    "In the example of the left image, the island with the index 4 located at the top right has no bridge going downwards, so if the five islands will be connected as shown in the center image, an isolated segment is created which is forbidden by the rules of Hashi. Therefore, there must be at least one bridge down from this island as shown in the right image."
+  -
+    "./ressources/img/Aide/AdvancedAide1.png"
+  -
+    "In the example of the left image, if a 2nd bridge is drawn from the island with index 2 located at the bottom right, then it will result in what can be seen in the center image, i.e. an isolated segment of 6 islands which is forbidden by the Hashi rules. So we have to leave a single bridge to the top neighbor and draw another one to the left neighbor as shown in the right image."
+  -
+    "./ressources/img/Aide/AdvancedAide2.png"
+  -
+    "In the example of the left image, if we assume that no bridge is made to the bottom of the island with index 2 located in the center of the puzzle then the island with index 2 will have its 2 bridges drawn the same way as in the center image but the island with index 1 located in the upper right will be isolated. So we need to have a bridge to the bottom of this island as shown in the right image."
+  -
+    "./ressources/img/Aide/AdvancedAide3.png"
+  -
+    "In the example of the left image, the island with index 1 on the top right side can have connections in 2 different directions, and it is assumed that the bridge to its lower neighbor is drawn. This situation would lead to a segment of 4 islands as in the center image, but the island with index 2 on the left is still missing a bridge. So the island with index 1 must be connected to the island at the top left as shown in the right image."
+  -
+    "./ressources/img/Aide/AdvancedAide4.png"
+
+##################
+# Basic Tutorial #
+##################
+bt_rules:
+  "Hashi - is a puzzle-game where your objective is connecting all Islands with bridges.\n
+  There aren't many rules, so let's run through them. Just click on CONTINUE button.\n"
+
+bt_rules_0: "These circles are called islands. The lines between them are called bridges, or links.\n"
+bt_rules_1: "Bridges can only be horizontal or vertical.\nThey also cannot cross, so you cannot connect red islands as shown in the picture.\n"
+bt_rules_2: "Numbers inside islands represent the number of bridges that must be connected to this island.\nTwo islands can be connected by 2 bridges at max.\n"
+bt_rules_3: "Level is finished when all bridges are interconnected enabling passage from any island to another.\n"
+bt_rules_4: "Now that you learned basics, let's go on and learn the interface.\n"
+
+bt_event_0: "This is the navigation panel of tutorial.\nBy clicking on arrows around it you can go to the next or previous stage of the tutorial.\nImportant elements of each stage will be highlighted.\nPlease, click the corresponding button to move to the next stage."
+bt_event_1: "Most of the time, there's a timer running when you play Hashi.\nSo, to start playing, you first need to click the start button in the bottom of the screen which will, well, start the timer."
+bt_event_2: "This button, also referred to as CHECK button, allows you to check how many mistakes you made."
+bt_event_3: "This one allows you to display your errors, but only after you use the CHECK button."
+bt_event_4: "This button, as you noticed already, allows you to pause the game.\nWhen you click it, though, the play zone will go black, because cheating is bad. :)"
+bt_event_5: "This is the famous UNDO button.\nIt cancels your last move (and those who preceded them, if you keep clicking)."
+bt_event_6: "This is, as you might have guessed, the REDO button.\nIt does the opposite of what UNDO does - it redo your last cancelled move."
+bt_event_7: "This is RESET button. As the name implies, it resets your level progression and allows you to start from zero.\nTimer is also reset."
+bt_event_8: "This is EXIT button. It allows you to exit current level and return to the previous menu.\nYour progression is saved each time you press, so feel free to use it."
+bt_event_9: "This is HELP button. When pressed, it pops up a window, containing a list of useful tips.\nYou can click it right now to see what's inside."
+bt_event_10: "These are CHECKPOINT(top) and RETURN(button) buttons.\nA bit specific, yet useful to experienced players.When clicked, creates a checkpoint.\nYou can keep on playing for as much as you want, and if at some point you feel that you went the wrong way, you can simply press the RETURN button to go back to your checkpoint."
+bt_event_11: "Yeah, you guessed it. This is the SETTINGS buttons.\nPretty self-explanatory, right? :)"
+
+#####################
+# Advanced Tutorial #
+#####################
+trigger_0: "We suggest that you first take an interest in \nthe basic tutorial before this one. Here we will explain some gameplay \nsome techniques to you. Read the text at the top before \nclick the advanced button ↷ to progress through the tutorial. ."
+trigger_4: "Next island: the island of value 4 to 3 neighbors since its resolution \n is obvious at that time. Island 1 to its left has no other \n neighbor, so we connect it with a bridge. 1 and 4, so we link \n island 4 with a bridge to island 3. Islands 1 and 4 are complete. "
+trigger_3: "Let's move forward with the island of value 6 (3 nefighbors), since its \nsolution is instinctive. Having 3 neighbors, each will therefore have two \nbridges to island 6. Islands 2 and 6 are now complete."
+trigger_2: "Let's continue with island 5, its solution is obvious because it is on \nthe side and has a neighbor equal to 1. It is therefore linked to its 3 \nneighbors. Island 1 has no other neighbors, it is connected to \n Island 5. The bridge to Island 4 is by deduction. "
+trigger_1: "Let's start with the island with a value of 8 since its resolution is \ninstinctive. An island with a value of 8 automatically has 4 neighbors, so we \n know that each of the neighbors will be connected by two bridges to \rn the island 8. The island is Completed. "
+trigger_5: "Let's finish the bottom of the puzzle, island 3 (3 neighbors), is already\n connected to island 4, its two other neighbors are of value 1. Therefore, \n  each of the free neighbors is connected \nby a bridge to the island. The island is finished. "
+trigger_6: "Let's connect the isolated bottom 1. Island 3 has 2 neighbors \nof value 1. Island is already connected by 2 bridges with island 6, it \ncan only be connected once to an island. Island 1 at the bottom is not\n connected to 3 it will be isolated (forbidden). It must be connected with 3. "
+trigger_7: "Let's continue with the island of value 4 (3 neighbors), we can first \nconnect the 4 to 1 because the 1 is isolated. Then we connect and end the\n bottom island 2 with the 4 because it doesn't has no other neighbors.\n Finally, on connects by deduction of a bridge the 3 to \nthe 4 (islands 1,3,2 & 4 finished). "
+trigger_9: "Next island: Island 3 (2 neighbors). It is already connected to its \n neighbor on the left (4), by a bridge. Its last available neighbor is \n island 3, therefore, we connect the two islands together with \ntwo bridges. Island 3 is complete. "
+trigger_8: "Let's move forward with the island of value 4 to 3 neighbors, it is \nalready connected by 2 bridges to 5. Its top neighbor 1 has no other \nneighbors than island 4, it must be connected to island 4 of a \nbridge. By deduction on connects the last available neighbor (3) of a bridge \nto 4. "
+trigger_10: "The island of value 3 has 2 neighbors, it is already connected to its \n neighbor from the bottom of two bridges. So there is only one bridge \nto make to complete the island. Therefore we connect the island \nto its neighbor. of value 3 by a bridge. Island 3 is finished. "
+trigger_11: "Let's finish the puzzle with island 3 with 2 neighbors. The \nneighboring island of value 2 has no other neighbors, which means\nthat it is imperative that you connect island 2 to island 3.\n The two islands are infinished. The puzzle is finished. "

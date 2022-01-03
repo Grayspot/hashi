@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Class: MenuPrincipal
+  
+    &mdash; Documentation by YARD 0.9.26
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "MenuPrincipal";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index (M)</a> &raquo;
+    
+    
+    <span class="title">MenuPrincipal</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Class: MenuPrincipal
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+  <dl>
+    <dt>Inherits:</dt>
+    <dd>
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">MenuPrincipal</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+    </dd>
+  </dl>
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>src/Menu/MenuPrincipal.rb</dd>
+  </dl>
+  
+</div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+<p>Classe permettante d&#39;afficher le menu principale.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Author:</p>
+<ul class="author">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>DEROUAULT Baptiste - GIROD Valentin - TSAMARAYEV Moustapha</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div>
+
+
+
+
+
+
+  
+    <h2>
+      Class Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#refreshBtn-class_method" title="refreshBtn (class method)">.<strong>refreshBtn</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet d&#39;actualiser le css et les labels de chacun des boutons.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#chargerParametres-instance_method" title="#chargerParametres (instance method)">#<strong>chargerParametres</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Charge les paramètres du jeu (la langue et la résolution).</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#creerBoutonBasique-instance_method" title="#creerBoutonBasique (instance method)">#<strong>creerBoutonBasique</strong>(texte)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée un bouton avec le texte définit et l&#39;id CSS bouton.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#creerBoutonSelectionDiff-instance_method" title="#creerBoutonSelectionDiff (instance method)">#<strong>creerBoutonSelectionDiff</strong>(difficulte, texte_bouton, coordonnee)  &#x21d2; Gtk::Button </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée et renvoit un bouton de difficulté pour le menu de sélection de difficulté.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#creerBoutonSelectionJeu-instance_method" title="#creerBoutonSelectionJeu (instance method)">#<strong>creerBoutonSelectionJeu</strong>(type_jeu, texte_bouton, coordonnee)  &#x21d2; Gtk::Button </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée et renvoit un bouton de type de jeu pour le menu de sélection de jeux.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#creerBoutonSelectionTaille-instance_method" title="#creerBoutonSelectionTaille (instance method)">#<strong>creerBoutonSelectionTaille</strong>(taille, coordonnee)  &#x21d2; Gtk::Button </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée et renvoit un bouton de taille pour le menu de sélection de taille de grille.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#creerSousMenu-instance_method" title="#creerSousMenu (instance method)">#<strong>creerSousMenu</strong>(texte_bouton, classe, coordonnee)  &#x21d2; Gtk::Button </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée un bouton pour les sous-menus du menu principal, qui vont cacher le menu principal et afficher le menu choisit quand on va cliquer dessus.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">#<strong>initialize</strong>  &#x21d2; MenuPrincipal </a>
+    
+
+    
+  </span>
+  
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>A new instance of MenuPrincipal.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#refreshBtn-instance_method" title="#refreshBtn (instance method)">#<strong>refreshBtn</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet d&#39;actualiser le style de tous les sélecteurs.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#setJouer-instance_method" title="#setJouer (instance method)">#<strong>setJouer</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée le bouton jouer, qui se remplace par le menu de sélection de type de jeu quand on clique dessus, et remplace le bouton “quitter” par un bouton “retour”.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#setQuitter-instance_method" title="#setQuitter (instance method)">#<strong>setQuitter</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée le bouton quitter.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#setRetour-instance_method" title="#setRetour (instance method)">#<strong>setRetour</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée le bouton retour, qui enlève tous les sous-menus du bouton jouer et ré-affiche le bouton jouer.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#setSelectionDifficulte-instance_method" title="#setSelectionDifficulte (instance method)">#<strong>setSelectionDifficulte</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée le menu de sélection de difficulté (facile, moyen, difficile).</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#setSelectionJeu-instance_method" title="#setSelectionJeu (instance method)">#<strong>setSelectionJeu</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée le menu de sélection de jeu (tuto, jeu libre, Aventure, Classé), qui se replace par le menu de sélection de difficulté de grille si on clique sur “classé” ou “jeu libre”, ou lance le mode tutoriel ou aventure.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#setSelectionTaille-instance_method" title="#setSelectionTaille (instance method)">#<strong>setSelectionTaille</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Crée le menu de sélection de taille (7x7, 15x15, 25x25).</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#setTitle-instance_method" title="#setTitle (instance method)">#<strong>setTitle</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Définit le titre du menu principal, en gros et en haut de la fenêtre.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <h3 class="signature first" id="initialize-instance_method">
+  
+    #<strong>initialize</strong>  &#x21d2; <tt><span class='object_link'><a href="" title="MenuPrincipal (class)">MenuPrincipal</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns a new instance of MenuPrincipal.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 232</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span><span class='lparen'>(</span><span class='rparen'>)</span>
+
+	<span class='const'>Gtk</span><span class='period'>.</span><span class='id identifier rubyid_init'>init</span>
+	<span class='ivar'>@window</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Window</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_set_default_size'>set_default_size</span><span class='lparen'>(</span><span class='int'>600</span><span class='comma'>,</span><span class='int'>600</span><span class='rparen'>)</span>
+	<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_set_border_width'>set_border_width</span><span class='lparen'>(</span><span class='int'>30</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_chargerParametres'>chargerParametres</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_set_title'>set_title</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>w_main_menu</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='ivar'>@widthX</span> <span class='op'>=</span> <span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_size'>size</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span>
+	<span class='ivar'>@widthY</span> <span class='op'>=</span> <span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_size'>size</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='int'>1</span><span class='rbracket'>]</span>
+	<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>destroy</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+           <span class='cvar'>@@quitter</span><span class='period'>.</span><span class='id identifier rubyid_clicked'>clicked</span>
+       <span class='rbrace'>}</span>
+
+	<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='gvar'>$theme</span><span class='rparen'>)</span>
+
+       <span class='comment'># CSS
+</span>       <span class='id identifier rubyid_provider'>provider</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>CssProvider</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span>
+	<span class='id identifier rubyid_path'>path</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/providers/light.css</span><span class='tstring_end'>&quot;</span></span>
+	<span class='id identifier rubyid_provider'>provider</span><span class='period'>.</span><span class='id identifier rubyid_load_from_path'>load_from_path</span><span class='lparen'>(</span><span class='id identifier rubyid_path'>path</span><span class='rparen'>)</span>
+
+       <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>StyleContext</span><span class='period'>.</span><span class='id identifier rubyid_add_provider_for_screen'>add_provider_for_screen</span><span class='lparen'>(</span><span class='const'>Gdk</span><span class='op'>::</span><span class='const'>Screen</span><span class='period'>.</span><span class='id identifier rubyid_default'>default</span><span class='comma'>,</span>
+                                                   <span class='id identifier rubyid_provider'>provider</span><span class='comma'>,</span>
+                                                   <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>StyleProvider</span><span class='op'>::</span><span class='const'>PRIORITY_APPLICATION</span><span class='rparen'>)</span>
+
+	<span class='comment'>#On crée le layout
+</span>	<span class='ivar'>@box</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Grid</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_set_row_spacing'>set_row_spacing</span><span class='lparen'>(</span><span class='int'>20</span><span class='rparen'>)</span>
+	<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_set_column_homogeneous'>set_column_homogeneous</span><span class='lparen'>(</span><span class='kw'>true</span><span class='rparen'>)</span>
+	<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_set_row_homogeneous'>set_row_homogeneous</span><span class='lparen'>(</span><span class='kw'>true</span><span class='rparen'>)</span>
+
+	<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_add'>add</span><span class='lparen'>(</span><span class='ivar'>@box</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_setTitle'>setTitle</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_setJouer'>setJouer</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='cvar'>@@parametres</span> <span class='op'>=</span> <span class='id identifier rubyid_creerSousMenu'>creerSousMenu</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>settings</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="Parametre.html" title="Parametre (class)">Parametre</a></span></span><span class='comma'>,</span> <span class='int'>3</span><span class='rparen'>)</span>
+	<span class='cvar'>@@classement</span> <span class='op'>=</span> <span class='id identifier rubyid_creerSousMenu'>creerSousMenu</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>leaders</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span><span class='const'><span class='object_link'><a href="Classement.html" title="Classement (class)">Classement</a></span></span><span class='comma'>,</span> <span class='int'>2</span><span class='rparen'>)</span>
+	<span class='cvar'>@@aPropos</span> <span class='op'>=</span> <span class='id identifier rubyid_creerSousMenu'>creerSousMenu</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>about_title</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="APropos.html" title="APropos (class)">APropos</a></span></span><span class='comma'>,</span> <span class='int'>4</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_setQuitter'>setQuitter</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_setSelectionJeu'>setSelectionJeu</span><span class='lparen'>(</span><span class='rparen'>)</span>
+   	<span class='id identifier rubyid_setSelectionDifficulte'>setSelectionDifficulte</span><span class='lparen'>(</span><span class='rparen'>)</span>
+   	<span class='id identifier rubyid_setSelectionTaille'>setSelectionTaille</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_setRetour'>setRetour</span><span class='lparen'>(</span><span class='rparen'>)</span>
+
+	<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_set_icon'>set_icon</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>ressources/icone/hashi.svg</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_show_all'>show_all</span>
+
+	<span class='const'>Gtk</span><span class='period'>.</span><span class='id identifier rubyid_main'>main</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="refreshBtn-class_method">
+  
+    .<strong>refreshBtn</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet d&#39;actualiser le css et les labels de chacun des boutons</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 310</span>
+
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_refreshBtn'>refreshBtn</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='cvar'>@@title</span><span class='period'>.</span><span class='id identifier rubyid_label'>label</span> <span class='op'>=</span> <span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>game_title</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span>
+	<span class='cvar'>@@title</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Title</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@classement</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>leaders</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@classement</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@jouer</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>play_mode</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@jouer</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@retour</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>back</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@retour</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@tutoriel</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_tutorial</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@tutoriel</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@freeplay</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_freeplay</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@freeplay</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@aventure</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_adv</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@aventure</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@classe</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_rank</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@classe</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@facile</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>lvl_easy</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@facile</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@moyen</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>lvl_medium</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@moyen</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@difficile</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>lvl_difficult</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@difficile</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@parametres</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>settings</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@parametres</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@aPropos</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>about_title</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@aPropos</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@quitter</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>exit</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@quitter</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="chargerParametres-instance_method">
+  
+    #<strong>chargerParametres</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Charge les paramètres du jeu (la langue et la résolution).</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 283</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_chargerParametres'>chargerParametres</span>
+	<span class='kw'>if</span><span class='lparen'>(</span><span class='op'>!</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_file?'>file?</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/parametres.yml</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_actualRes'>actualRes</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_size'>size</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>x</span><span class='embexpr_beg'>#{</span><span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_size'>size</span><span class='lbracket'>[</span><span class='int'>1</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+		<span class='id identifier rubyid_param'>param</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>resolution</span><span class='tstring_end'>&quot;</span></span><span class='op'>=&gt;</span><span class='id identifier rubyid_actualRes'>actualRes</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>langue</span><span class='tstring_end'>&quot;</span></span><span class='op'>=&gt;</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>fr</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>theme</span><span class='tstring_end'>&quot;</span></span><span class='op'>=&gt;</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>light</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>fullScreen</span><span class='tstring_end'>&quot;</span></span><span class='op'>=&gt;</span><span class='kw'>false</span><span class='rbrace'>}</span>
+		<span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/parametres.yml</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>w</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+		<span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/parametres.yml</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>w</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_file'>file</span><span class='op'>|</span> <span class='id identifier rubyid_file'>file</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span><span class='lparen'>(</span><span class='id identifier rubyid_param'>param</span><span class='period'>.</span><span class='id identifier rubyid_to_yaml'>to_yaml</span><span class='rparen'>)</span> <span class='rbrace'>}</span>
+		<span class='gvar'>$lang</span><span class='op'>=</span><span class='id identifier rubyid_param'>param</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>langue</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+		<span class='gvar'>$theme</span><span class='op'>=</span><span class='id identifier rubyid_param'>param</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>theme</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+		<span class='gvar'>$local</span><span class='op'>=</span><span class='const'>YAML</span><span class='period'>.</span><span class='id identifier rubyid_load'>load</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_read'>read</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/localisation/</span><span class='embexpr_beg'>#{</span><span class='gvar'>$lang</span><span class='embexpr_end'>}</span><span class='tstring_content'>.yml</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+
+	<span class='kw'>else</span>
+	<span class='id identifier rubyid_param'>param</span> <span class='op'>=</span>  <span class='const'>YAML</span><span class='period'>.</span><span class='id identifier rubyid_load'>load</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_read'>read</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/parametres.yml</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+	<span class='gvar'>$lang</span><span class='op'>=</span><span class='id identifier rubyid_param'>param</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>langue</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+	<span class='gvar'>$theme</span><span class='op'>=</span><span class='id identifier rubyid_param'>param</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>theme</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+	<span class='gvar'>$local</span><span class='op'>=</span><span class='const'>YAML</span><span class='period'>.</span><span class='id identifier rubyid_load'>load</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_read'>read</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/localisation/</span><span class='embexpr_beg'>#{</span><span class='gvar'>$lang</span><span class='embexpr_end'>}</span><span class='tstring_content'>.yml</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+	<span class='kw'>if</span><span class='lparen'>(</span><span class='id identifier rubyid_param'>param</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>fullScreen</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+		<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_fullscreen'>fullscreen</span>
+	<span class='kw'>else</span>
+		<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_unfullscreen'>unfullscreen</span>
+		<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_resize'>resize</span><span class='lparen'>(</span><span class='id identifier rubyid_param'>param</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>resolution</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_split'>split</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>x</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_to_i'>to_i</span><span class='comma'>,</span> <span class='id identifier rubyid_param'>param</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>resolution</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_split'>split</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>x</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='int'>1</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_to_i'>to_i</span><span class='rparen'>)</span>
+	<span class='kw'>end</span>
+	<span class='kw'>end</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="creerBoutonBasique-instance_method">
+  
+    #<strong>creerBoutonBasique</strong>(texte)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée un bouton avec le texte définit et l&#39;id CSS bouton.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>texte</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Le texte à afficher sur le bouton</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'></span>
+      
+      
+      
+        
+        <div class='inline'>
+<p>un Gtk:Button basique</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+187
+188
+189
+190
+191
+192</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 187</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_creerBoutonBasique'>creerBoutonBasique</span><span class='lparen'>(</span><span class='id identifier rubyid_texte'>texte</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_bouton'>bouton</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Button</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='symbol'>:label</span><span class='op'>=&gt;</span><span class='id identifier rubyid_texte'>texte</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_bouton'>bouton</span><span class='period'>.</span><span class='id identifier rubyid_relief'>relief</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>ReliefStyle</span><span class='op'>::</span><span class='const'>NONE</span>
+	<span class='id identifier rubyid_bouton'>bouton</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Bouton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='kw'>return</span> <span class='id identifier rubyid_bouton'>bouton</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="creerBoutonSelectionDiff-instance_method">
+  
+    #<strong>creerBoutonSelectionDiff</strong>(difficulte, texte_bouton, coordonnee)  &#x21d2; <tt>Gtk::Button</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée et renvoit un bouton de difficulté pour le menu de sélection de difficulté.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>difficulte</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>le type de difficulté</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>texte_bouton</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>le texte à afficher sur le bouton</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>coordonnee</span>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>la coordonnée horizontale pour le bouton dans le menu de sélection de jeu</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Gtk::Button</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>un bouton qui permet de choisir une difficulté</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 141</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_creerBoutonSelectionDiff'>creerBoutonSelectionDiff</span><span class='lparen'>(</span><span class='id identifier rubyid_difficulte'>difficulte</span><span class='comma'>,</span> <span class='id identifier rubyid_texte_bouton'>texte_bouton</span><span class='comma'>,</span> <span class='id identifier rubyid_coordonnee'>coordonnee</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_bouton'>bouton</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonBasique'>creerBoutonBasique</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='id identifier rubyid_texte_bouton'>texte_bouton</span><span class='rbracket'>]</span><span class='rparen'>)</span>
+
+	<span class='ivar'>@selecDiff</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='id identifier rubyid_bouton'>bouton</span><span class='comma'>,</span><span class='id identifier rubyid_coordonnee'>coordonnee</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_bouton'>bouton</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@selecDiff</span><span class='rparen'>)</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='ivar'>@selecTaille</span><span class='comma'>,</span> <span class='int'>0</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>3</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+		<span class='ivar'>@difficulte</span> <span class='op'>=</span> <span class='id identifier rubyid_difficulte'>difficulte</span>
+		<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_show_all'>show_all</span>
+	<span class='rbrace'>}</span>
+	<span class='kw'>return</span> <span class='id identifier rubyid_bouton'>bouton</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="creerBoutonSelectionJeu-instance_method">
+  
+    #<strong>creerBoutonSelectionJeu</strong>(type_jeu, texte_bouton, coordonnee)  &#x21d2; <tt>Gtk::Button</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée et renvoit un bouton de type de jeu pour le menu de sélection de jeux.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>type_jeu</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>le type de jeu</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>texte_bouton</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>le texte à afficher sur le bouton</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>coordonnee</span>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>la coordonnée horizontale pour le bouton dans le menu de sélection de jeu</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Gtk::Button</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>un bouton qui démarre un type de jeu désiré</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 98</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_creerBoutonSelectionJeu'>creerBoutonSelectionJeu</span><span class='lparen'>(</span><span class='id identifier rubyid_type_jeu'>type_jeu</span><span class='comma'>,</span> <span class='id identifier rubyid_texte_bouton'>texte_bouton</span><span class='comma'>,</span> <span class='id identifier rubyid_coordonnee'>coordonnee</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_bouton'>bouton</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonBasique'>creerBoutonBasique</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='id identifier rubyid_texte_bouton'>texte_bouton</span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecJeu</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='id identifier rubyid_bouton'>bouton</span><span class='comma'>,</span> <span class='id identifier rubyid_coordonnee'>coordonnee</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+	<span class='kw'>if</span><span class='lparen'>(</span><span class='id identifier rubyid_texte_bouton'>texte_bouton</span><span class='period'>.</span><span class='id identifier rubyid_eql?'>eql?</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_adv</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_bouton'>bouton</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+			<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@box</span><span class='rparen'>)</span>
+			<span class='const'><span class='object_link'><a href="Adventure.html" title="Adventure (class)">Adventure</a></span></span><span class='period'>.</span><span class='id identifier rubyid_creer'><span class='object_link'><a href="Adventure.html#creer-class_method" title="Adventure.creer (method)">creer</a></span></span><span class='lparen'>(</span><span class='ivar'>@window</span><span class='comma'>,</span><span class='ivar'>@box</span><span class='rparen'>)</span>
+		<span class='rbrace'>}</span>
+	<span class='kw'>elsif</span><span class='lparen'>(</span><span class='id identifier rubyid_texte_bouton'>texte_bouton</span><span class='period'>.</span><span class='id identifier rubyid_eql?'>eql?</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_tutorial</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_bouton'>bouton</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+			<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@box</span><span class='rparen'>)</span>
+			<span class='const'><span class='object_link'><a href="ChoixTuto.html" title="ChoixTuto (class)">ChoixTuto</a></span></span><span class='period'>.</span><span class='id identifier rubyid_creer'><span class='object_link'><a href="ChoixTuto.html#creer-class_method" title="ChoixTuto.creer (method)">creer</a></span></span><span class='lparen'>(</span><span class='ivar'>@window</span><span class='comma'>,</span><span class='ivar'>@box</span><span class='rparen'>)</span>
+		<span class='rbrace'>}</span>
+	<span class='kw'>else</span>
+    <span class='id identifier rubyid_bouton'>bouton</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+			<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@selecJeu</span><span class='rparen'>)</span>
+			<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='ivar'>@selecDiff</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>3</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+			<span class='ivar'>@mode_de_jeu</span> <span class='op'>=</span> <span class='id identifier rubyid_type_jeu'>type_jeu</span>
+			<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_show_all'>show_all</span>
+    <span class='rbrace'>}</span>
+	<span class='kw'>end</span>
+	<span class='kw'>return</span> <span class='id identifier rubyid_bouton'>bouton</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="creerBoutonSelectionTaille-instance_method">
+  
+    #<strong>creerBoutonSelectionTaille</strong>(taille, coordonnee)  &#x21d2; <tt>Gtk::Button</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée et renvoit un bouton de taille pour le menu de sélection de taille de grille.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>taille</span>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>la taille des grilles à afficher</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>coordonnee</span>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>la coordonnée horizontale pour le bouton dans le menu de sélection de jeu</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Gtk::Button</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>un bouton qui permet de choisir une taille de grille</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+173
+174
+175
+176
+177
+178
+179
+180
+181</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 173</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_creerBoutonSelectionTaille'>creerBoutonSelectionTaille</span><span class='lparen'>(</span><span class='id identifier rubyid_taille'>taille</span><span class='comma'>,</span> <span class='id identifier rubyid_coordonnee'>coordonnee</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_bouton'>bouton</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonBasique'>creerBoutonBasique</span><span class='lparen'>(</span><span class='id identifier rubyid_taille'>taille</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecTaille</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='id identifier rubyid_bouton'>bouton</span><span class='comma'>,</span><span class='id identifier rubyid_coordonnee'>coordonnee</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_bouton'>bouton</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+		<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@box</span><span class='rparen'>)</span>
+		<span class='const'><span class='object_link'><a href="ChoixGrille.html" title="ChoixGrille (class)">ChoixGrille</a></span></span><span class='period'>.</span><span class='id identifier rubyid_creer'><span class='object_link'><a href="ChoixGrille.html#creer-class_method" title="ChoixGrille.creer (method)">creer</a></span></span><span class='lparen'>(</span><span class='ivar'>@window</span><span class='comma'>,</span> <span class='ivar'>@box</span><span class='comma'>,</span> <span class='ivar'>@mode_de_jeu</span><span class='comma'>,</span> <span class='ivar'>@difficulte</span><span class='comma'>,</span> <span class='id identifier rubyid_taille'>taille</span><span class='rparen'>)</span>
+	<span class='rbrace'>}</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="creerSousMenu-instance_method">
+  
+    #<strong>creerSousMenu</strong>(texte_bouton, classe, coordonnee)  &#x21d2; <tt>Gtk::Button</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée un bouton pour les sous-menus du menu principal, qui vont cacher le menu principal et afficher le menu choisit quand on va cliquer dessus.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>texte_bouton</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>l&#39;id du texte à afficher dans le bouton, qui va ^etre pris depuis le fichier de langue</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>classe</span>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>la classe du sous-menu correspondant</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>coordonnee</span>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>la coordonnée en hauteur du sous-menu</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Gtk::Button</tt>)</span>
+      
+      
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 200</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_creerSousMenu'>creerSousMenu</span><span class='lparen'>(</span><span class='id identifier rubyid_texte_bouton'>texte_bouton</span><span class='comma'>,</span> <span class='id identifier rubyid_classe'>classe</span><span class='comma'>,</span> <span class='id identifier rubyid_coordonnee'>coordonnee</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_bouton'>bouton</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonBasique'>creerBoutonBasique</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='id identifier rubyid_texte_bouton'>texte_bouton</span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='kw'>if</span><span class='lparen'>(</span><span class='id identifier rubyid_classe'>classe</span><span class='period'>.</span><span class='id identifier rubyid_eql?'>eql?</span><span class='lparen'>(</span><span class='const'><span class='object_link'><a href="Parametre.html" title="Parametre (class)">Parametre</a></span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_bouton'>bouton</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+			<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@box</span><span class='rparen'>)</span>
+			<span class='id identifier rubyid_classe'>classe</span><span class='period'>.</span><span class='id identifier rubyid_creer'>creer</span><span class='lparen'>(</span><span class='ivar'>@window</span><span class='comma'>,</span><span class='ivar'>@box</span><span class='comma'>,</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>w_main_menu</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='comma'>,</span><span class='kw'>self</span><span class='rparen'>)</span>
+		<span class='rbrace'>}</span>
+	<span class='kw'>else</span>
+		<span class='id identifier rubyid_bouton'>bouton</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+			<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@box</span><span class='rparen'>)</span>
+			<span class='id identifier rubyid_classe'>classe</span><span class='period'>.</span><span class='id identifier rubyid_creer'>creer</span><span class='lparen'>(</span><span class='ivar'>@window</span><span class='comma'>,</span><span class='ivar'>@box</span><span class='rparen'>)</span>
+		<span class='rbrace'>}</span>
+	<span class='kw'>end</span>
+	<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='id identifier rubyid_bouton'>bouton</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='id identifier rubyid_coordonnee'>coordonnee</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+	<span class='kw'>return</span> <span class='id identifier rubyid_bouton'>bouton</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="refreshBtn-instance_method">
+  
+    #<strong>refreshBtn</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet d&#39;actualiser le style de tous les sélecteurs.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+344
+345
+346</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 344</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_refreshBtn'>refreshBtn</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_setSelectionTaille'>setSelectionTaille</span><span class='lparen'>(</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="setJouer-instance_method">
+  
+    #<strong>setJouer</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée le bouton jouer, qui se remplace par le menu de sélection de type de jeu quand on clique dessus, et remplace le bouton “quitter” par un bouton “retour”.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 39</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_setJouer'>setJouer</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='cvar'>@@jouer</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonBasique'>creerBoutonBasique</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>play_mode</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+
+	<span class='cvar'>@@jouer</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='cvar'>@@jouer</span><span class='rparen'>)</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='cvar'>@@quitter</span><span class='rparen'>)</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='ivar'>@selecJeu</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>3</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='cvar'>@@retour</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>5</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+		<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_show_all'>show_all</span>
+	<span class='rbrace'>}</span>
+
+	<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='cvar'>@@jouer</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="setQuitter-instance_method">
+  
+    #<strong>setQuitter</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée le bouton quitter.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+219
+220
+221
+222
+223
+224
+225
+226
+227</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 219</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_setQuitter'>setQuitter</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='cvar'>@@quitter</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonBasique'>creerBoutonBasique</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>exit</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@quitter</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+		<span class='const'>Gtk</span><span class='period'>.</span><span class='id identifier rubyid_main_quit'>main_quit</span>
+	<span class='rbrace'>}</span>
+	<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='cvar'>@@quitter</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>5</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="setRetour-instance_method">
+  
+    #<strong>setRetour</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée le bouton retour, qui enlève tous les sous-menus du bouton jouer et ré-affiche le bouton jouer. Se remplace lui-même par le bouton quitter au clique.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 58</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_setRetour'>setRetour</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='cvar'>@@retour</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonBasique'>creerBoutonBasique</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>back</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+
+	<span class='cvar'>@@retour</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@selecJeu</span><span class='rparen'>)</span>
+     		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@selecDiff</span><span class='rparen'>)</span>
+     		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@selecTaille</span><span class='rparen'>)</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='cvar'>@@retour</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_setSelectionJeu'>setSelectionJeu</span><span class='lparen'>(</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_setSelectionDifficulte'>setSelectionDifficulte</span><span class='lparen'>(</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_setSelectionTaille'>setSelectionTaille</span><span class='lparen'>(</span><span class='rparen'>)</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='cvar'>@@jouer</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+		<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='cvar'>@@quitter</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>5</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+		<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_show_all'>show_all</span>
+	<span class='rbrace'>}</span>
+
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="setSelectionDifficulte-instance_method">
+  
+    #<strong>setSelectionDifficulte</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée le menu de sélection de difficulté (facile, moyen, difficile). Se replace par le menu de sélection de taille de grille une fois qu&#39;on a choisit la difficulté.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 124</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_setSelectionDifficulte'>setSelectionDifficulte</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecDiff</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Grid</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecDiff</span><span class='period'>.</span><span class='id identifier rubyid_set_column_homogeneous'>set_column_homogeneous</span><span class='lparen'>(</span><span class='kw'>true</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecDiff</span><span class='period'>.</span><span class='id identifier rubyid_set_row_homogeneous'>set_row_homogeneous</span><span class='lparen'>(</span><span class='kw'>true</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecDiff</span><span class='period'>.</span><span class='id identifier rubyid_set_row_spacing'>set_row_spacing</span><span class='lparen'>(</span><span class='int'>10</span><span class='rparen'>)</span>
+	<span class='cvar'>@@facile</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonSelectionDiff'>creerBoutonSelectionDiff</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Easy</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>lvl_easy</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>0</span><span class='rparen'>)</span>
+	<span class='cvar'>@@moyen</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonSelectionDiff'>creerBoutonSelectionDiff</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Medium</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>lvl_medium</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>1</span><span class='rparen'>)</span>
+	<span class='cvar'>@@difficile</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonSelectionDiff'>creerBoutonSelectionDiff</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Hard</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>lvl_difficult</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>2</span><span class='rparen'>)</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="setSelectionJeu-instance_method">
+  
+    #<strong>setSelectionJeu</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée le menu de sélection de jeu (tuto, jeu libre, Aventure, Classé), qui se replace par le menu de sélection de difficulté de grille si on clique sur “classé” ou “jeu libre”, ou lance le mode tutoriel ou aventure.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 79</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_setSelectionJeu'>setSelectionJeu</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecJeu</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Grid</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecJeu</span><span class='period'>.</span><span class='id identifier rubyid_set_column_homogeneous'>set_column_homogeneous</span><span class='lparen'>(</span><span class='kw'>true</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecJeu</span><span class='period'>.</span><span class='id identifier rubyid_set_row_homogeneous'>set_row_homogeneous</span><span class='lparen'>(</span><span class='kw'>true</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecJeu</span><span class='period'>.</span><span class='id identifier rubyid_set_row_spacing'>set_row_spacing</span><span class='lparen'>(</span><span class='int'>10</span><span class='rparen'>)</span>
+
+	<span class='cvar'>@@tutoriel</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonSelectionJeu'>creerBoutonSelectionJeu</span><span class='lparen'>(</span><span class='kw'>nil</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_tutorial</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>0</span><span class='rparen'>)</span>
+	<span class='cvar'>@@freeplay</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonSelectionJeu'>creerBoutonSelectionJeu</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Freeplay</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_freeplay</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>2</span><span class='rparen'>)</span>
+	<span class='cvar'>@@aventure</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonSelectionJeu'>creerBoutonSelectionJeu</span><span class='lparen'>(</span><span class='kw'>nil</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_adv</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>1</span><span class='rparen'>)</span>
+	<span class='cvar'>@@classe</span> <span class='op'>=</span> <span class='id identifier rubyid_creerBoutonSelectionJeu'>creerBoutonSelectionJeu</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Classe</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_rank</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>3</span><span class='rparen'>)</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="setSelectionTaille-instance_method">
+  
+    #<strong>setSelectionTaille</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Crée le menu de sélection de taille (7x7, 15x15, 25x25). Lance le menu de choix de grille une fois la difficulté choisit.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 156</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_setSelectionTaille'>setSelectionTaille</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecTaille</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Grid</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecTaille</span><span class='period'>.</span><span class='id identifier rubyid_set_column_homogeneous'>set_column_homogeneous</span><span class='lparen'>(</span><span class='kw'>true</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecTaille</span><span class='period'>.</span><span class='id identifier rubyid_set_row_homogeneous'>set_row_homogeneous</span><span class='lparen'>(</span><span class='kw'>true</span><span class='rparen'>)</span>
+	<span class='ivar'>@selecTaille</span><span class='period'>.</span><span class='id identifier rubyid_set_row_spacing'>set_row_spacing</span><span class='lparen'>(</span><span class='int'>10</span><span class='rparen'>)</span>
+
+	<span class='id identifier rubyid_creerBoutonSelectionTaille'>creerBoutonSelectionTaille</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>9x9</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>0</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_creerBoutonSelectionTaille'>creerBoutonSelectionTaille</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>13x13</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>1</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_creerBoutonSelectionTaille'>creerBoutonSelectionTaille</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>17x17</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='int'>2</span><span class='rparen'>)</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="setTitle-instance_method">
+  
+    #<strong>setTitle</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Définit le titre du menu principal, en gros et en haut de la fenêtre.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+29
+30
+31
+32
+33
+34
+35</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/MenuPrincipal.rb', line 29</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_setTitle'>setTitle</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='cvar'>@@title</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Label</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>game_title</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+	<span class='cvar'>@@title</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Title</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='ivar'>@box</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='cvar'>@@title</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>3</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Wed Apr 21 21:53:22 2021 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.26 (ruby-2.7.2).
+</div>
+
+    </div>
+  </body>
+</html>

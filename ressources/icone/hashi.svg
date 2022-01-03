@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 106.86 113.14"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="hashi.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>iAsset 1</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     pagecolor=""
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="3.756408"
+     inkscape:cx="73.955977"
+     inkscape:cy="85.972234"
+     inkscape:window-x="1672"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <title
+     id="title2">iAsset 1</title>
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     style="fill:#ff0000">
+    <g
+       id="Logo"
+       style="fill:#ff0000">
+      <polygon
+         points="44.54 0 0 25.69 0 25.71 0 87.41 16.73 97.07 16.73 35.35 44.54 19.3 44.54 0"
+         id="polygon4"
+         style="fill:#ff0000" />
+      <polygon
+         points="62.32 0 62.32 49.15 44.54 49.15 44.54 30.81 27.8 40.47 27.8 103.44 44.54 113.12 44.54 64.11 62.32 64.11 62.32 82.33 79.05 72.67 79.05 9.66 62.32 0"
+         id="polygon6"
+         style="fill:#ff0000" />
+      <polygon
+         points="62.32 113.14 106.86 87.45 106.86 87.43 106.86 25.73 90.12 16.07 90.12 77.79 62.32 93.84 62.32 113.14"
+         id="polygon8"
+         style="fill:#ff0000" />
+    </g>
+  </g>
+</svg>

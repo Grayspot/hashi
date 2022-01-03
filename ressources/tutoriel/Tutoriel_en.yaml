@@ -1,0 +1,57 @@
+---
+PopUp1:
+  -
+    "Ile de valeur 3 à deux voisins."
+  -
+    "L'île en haut à gauche, de valeur 3, est notre île de référence, elle a une valeur de 3 et n'a que 2 voisins. Il y a donc deux solutions possibles (voir les deux images ci-contre). Les deux solutions nous permettent de savoir que chaque île voisine aura au minimum un pont vers l'île de référence."
+  -
+    "./ressources/img/Tutoriel/PopUp1.png"
+PopUp2:
+  -
+    "Ile de valeur 3 à trois voisins."
+  -
+    "L'île de valeur 3 est notre île de référence, elle a trois voisins. Si l'on résolve l'île comme sur l'image ci-contre, les deux îles reliées à l'île de reférence ne pourront plus être reliées à d'autres îles du puzzle. De plus l'île 2 du bas sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp2.png"
+PopUp3:
+  -
+    "Ile de valeur 3 à trois voisins."
+  -
+    "Notre île de référence est la même, celle de valeur 3. Si l'on résolve l'île comme sur l'image ci-contre, les deux îles reliées à l'île de référence ne pourront plus être reliées à d'autres îles du puzzle. De plus l'île 2 à gauche sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp3.png"
+PopUp4:
+  -
+    "Ile de valeur 4 à trois voisins."
+  -
+    "L'île de valeur 4 du haut, est notre île de référence, elle a trois voisins. Si l'on résolve l'île comme sur l'image ci-contre, les deux îles reliées à l'île de référence ne pourront plus être reliées à d'autres îles du puzzle. De plus l'île 4 du bas sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp4.png"
+PopUp5:
+  -
+    "Ile de valeur 2 à deux voisins."
+  -
+    "L'île de valeur 2 du milieu est notre île de référence, elle a deux voisins. Si l'on résolve l'île comme sur l'image ci-contre, l'île reliée à l'île de référence ne pourra plus être reliée à d'autres îles du puzzle. De plus l'île 4 à gauche sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp5.png"
+PopUp6:
+  -
+    "Ile de valeur 4 à trois voisins."
+  -
+    "L'île de valeur 4 est notre île de référence, elle a trois voisins. Il y a deux solutions possible (voir les images ci-contre). Les deux solutions nous permettent de savoir que chaque île voisine aura au minimum un pont vers l'île de référence."
+  -
+    "./ressources/img/Tutoriel/PopUp6.png"
+PopUp7:
+  -
+    "Ile de valeur 2 à deux voisins."
+  -
+    "L'île de valeur 2 est notre île de référence, elle a deux voisins. Il y a deux solutions possible (voir les images ci-contre). Les deux solutions nous permettent de savoir que il y aura au moins 1 pont vers l'île de valeur 4."
+  -
+    "./ressources/img/Tutoriel/PopUp1.png"
+PopUp8:
+  -
+    "Ile de valeur 2 à trois voisins."
+  -
+    "L'île de valeur 2 du milieu est notre île de référence, elle a trois voisins. Si l'on résolve l'île comme sur l'image ci-contre, les deux îles reliées à l'île de référence ne pourront plus être reliées à d'autres îles du puzzle. De plus l'île 4 à gauche sera évincée."
+  -
+    "./ressources/img/Tutoriel/PopUp8.png"

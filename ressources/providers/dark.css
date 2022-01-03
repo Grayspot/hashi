@@ -1,0 +1,472 @@
+@define-color darkHoverBon #03989E;
+@define-color darkBackground #737373;
+@define-color darkErreur #FF0000;
+@define-color darkIleFini rgba(181,171,64,0.35);
+@define-color darkAides #0028FF;
+@define-color darkFontColorBord #FFFFFF;
+
+#darkBouton {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+-webkit-border-radius: 33px 33px 33px 33px;
+-moz-border-radius: 33px 33px 33px 33px;
+border: 12px solid @darkFontColorBord;padding:0px;margin:0px;min-width:0px;font-size:130%;background: @darkBackground;}
+
+#darkBouton:hover{background:@darkBackground;border-radius: 33px 33px 33px 33px;
+-webkit-border-radius: 33px 33px 33px 33px;
+-moz-border-radius: 33px 33px 33px 33px;
+border: 12px solid @darkHoverBon;}
+
+#darkBouton:active{background: @darkBackground;}
+
+#darkComboBoxText{
+	color:@darkBackground;
+	background: @darkBackground;
+}
+
+#darkCustom {padding:0px;margin:0px;border:0px;min-width:0px;font-size:20px;background: @darkBackground; color: @darkFontColorBord;}
+#darkCustom:hover{box-shadow: none;text-shadow: none;}
+#darkCustom:active{background: @darkBackground;}
+
+#dark{
+	background:@darkBackground;
+}
+
+#darkText{
+	color:@darkFontColorBord;
+}
+
+#darkDesc{
+	color:@darkFontColorBord;
+	font-size:130%;
+}
+
+#darkTitle{font-size:50px;color:@darkFontColorBord}
+
+/* BOUTON DES CHOIX DE GRILLES */
+#darkBoutonChoixGrille {background:@darkBackground;color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:0px;font-size:130%;}
+#darkBoutonChoixGrille:hover{background:@darkBackground;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 6px solid @darkHoverBon;}
+
+/*Bouton icon*/
+#darkBtnIcon{
+	color: @darkFontColorBord;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 4px solid @darkFontColorBord;
+	padding:0px;margin:0px;min-width:0px;
+	font-size:220%;
+	background: @darkBackground;
+}
+
+#darkBtnIconFocus{
+	color:#D4AF37;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 4px solid #D4AF37;
+	padding:0px;margin:0px;min-width:0px;
+	font-size:220%;
+	background: @darkBackground;
+}
+
+#darkBtnIconFocusTuto{
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 4px solid #47CD61;
+	padding:0px;margin:0px;min-width:0px;
+	font-size:220%;
+	background: @darkBackground;
+}
+
+#darkBtnIcon:hover{
+	color: @darkFontColorBord;
+	border: 4px solid @darkHoverBon;
+	background: @darkBackground;
+}
+#darkBtnDisable{
+	color: @darkFontColorBord;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 4px solid #D3D3D3;
+	padding:0px;margin:0px;min-width:0px;
+	font-size:220%;
+	background: @darkBackground;
+}
+
+/*
+	ÎLE DIFFERENTES COULEUR
+*/
+#darkCircle{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	border: 5px solid @darkFontColorBord;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	background: @darkBackground;
+	color: @darkFontColorBord;
+}
+#darkCircle:hover{box-shadow: none;text-shadow: none;transition: 0s;background: @darkBackground; color: @darkFontColorBord;}
+
+#darkCircleGold{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	border: 5px solid @darkAides;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	background: @darkBackground;
+	color: @darkFontColorBord;
+}
+
+#darkCircleRed{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	border: 5px solid @darkErreur;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	background: @darkBackground;
+	color: @darkFontColorBord;
+}
+#darkCircleRed:hover{box-shadow: none;text-shadow: none;transition: 0s;background: @darkBackground; color: @darkFontColorBord;}
+
+#darkCircleGreen{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	border: 5px solid @darkHoverBon;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	background: @darkBackground;
+	color: @darkFontColorBord;
+}
+#darkCircleGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;background: @darkBackground; color: @darkFontColorBord;}
+
+#darkCircleEnd{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	background: @darkIleFini;
+	border: 5px solid #000000;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	color: @darkFontColorBord;
+	border-color: @darkFontColorBord;
+}
+#darkCircleEnd:hover{box-shadow: none;text-shadow: none;transition: 0s;background: @darkIleFini; color: @darkFontColorBord;border-color: @darkFontColorBord;}
+
+#darkLineHor{
+	background-image:url("../../assets/Grille/link/dark1hor.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineHor:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#darkLineDoubleHor{
+	background-image:url("../../assets/Grille/link/dark2hor.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineDoubleHor:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+
+#darkLineDoubleVer{
+	background-image:url("../../assets/Grille/link/dark2ver.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineDoubleVer:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#darkLineVer{
+	background-image:url("../../assets/Grille/link/dark1ver.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineVer:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+
+#darkLineVerGreen{
+	background-image:url("../../assets/Grille/link/dark1vergreen.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineVerGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#darkLineHorGreen{
+	background-image:url("../../assets/Grille/link/dark1horgreen.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineHorGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#darkLineHorGray{
+	background-image:url("../../assets/Grille/link/dark1hor.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineHorGray:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+#darkLineVerGray{
+	background-image:url("../../assets/Grille/link/dark1ver.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineVerGray:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#darkLineDoubleHorGreen{
+	background-image:url("../../assets/Grille/link/dark2horgreen.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineDoubleHorGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#darkLineDoubleVerGreen{
+	background-image:url("../../assets/Grille/link/dark2vergreen.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineDoubleVerGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#darkLineHorRed{
+	background-image:url("../../assets/Grille/link/1horred.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineHorRed:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+#darkLineDoubleHorRed{
+	background-image:url("../../assets/Grille/link/2horred.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineDoubleHorRed:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+#darkLineDoubleVerRed{
+	background-image:url("../../assets/Grille/link/2verred.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineDoubleVerRed:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+#darkLineVerRed{
+	background-image:url("../../assets/Grille/link/1verred.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#darkLineVerRed:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+/*
+/ ADVENTURE BUTTONS CSS
+*/
+#darkUnderButton {color: @darkFontColorBord;;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background: @darkBackground;
+
+}
+#darkUnderButton:hover{border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 6px solid @darkHoverBon;
+	background: @darkBackground;
+	color: @darkFontColorBord;
+}
+
+#darkBoutonAdv {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 9px solid @darkFontColorBord;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background: @darkBackground;
+}
+#darkBoutonAdv:hover{border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 9px solid @darkHoverBon;
+	background: @darkBackground;
+	color: @darkFontColorBord;
+}
+
+
+/* AVENTURE */
+#darkPreview0 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/0.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#darkPreview1 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/1.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#darkPreview2 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/2.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#darkPreview3 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/3.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#darkPreview4 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/4.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#darkPreview5 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/5.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#darkPreview6 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/6.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#darkPreview7 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/7.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#darkPreview8 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/8.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#darkPreview_tutorial {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/preview_tutorial.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#darkBt_tutorial_0 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_0.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#darkBt_tutorial_1 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_1.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#darkBt_tutorial_2 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_2.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#darkBt_tutorial_3 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_3.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#darkBt_tutorial_4 {color:@darkFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_3.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @darkFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}

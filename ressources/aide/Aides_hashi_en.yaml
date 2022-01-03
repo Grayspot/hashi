@@ -1,0 +1,91 @@
+---
+titreFenetre: Help - Hashi
+titrePrincipal: Help
+btnRetour: Back
+btnBasic: Basic Techniques
+btnIsolation: Isolation techniques
+btnAdvanced: Advanced techniques
+aidesBasicsTitre:
+  -
+    "Islands with a single neighbor"
+  -
+    "Islands with 3 in the corner, 5 on the side and 7 in the middle"
+  -
+    "Special cases of 3 in the corner, 5 on the side and 7 in the middle"
+  -
+    "Special case of 4 on the side"
+  -
+    "Special case of 6 in the middle"
+aidesBasics:
+  -
+    "The island containing 1 in the bottom row has only one neighbor on its right, which means we must connect a single bridge between these islands. Similarly, the island containing 2 on the top-right has only one neighbor underneath, which means we must connect two bridges between these islands. In both cases the island containing 1 and the island containing 2 are completed, which means they can be marked with an X. Note that an island with a single neighbor can never contain 3 or higher because this will violate the rules of Hashi."
+  -
+    "ressources/img/BasicAide1.png"
+  -
+    "An island in a corner with the clue 3 must have two neighbors, with one bridge connected to one neighbor and two bridges connected to the other neighbor. Although we don’t know which neighbor has two bridges, we can be certain there is at least one bridge in each direction as seen with the island in the bottom left corner of this example. Similarly an island on the side of the puzzle with the clue 5 must have at least one bridge connected to each of its three neighbors and an island in the middle of the puzzle with the clue 7 must have at least one bridge connected to each of its four neighbors."
+  -
+    "ressources/img/BasicAide2.png"
+  -
+    "If an island in a corner has a clue 3 and one of its neighbors is an island with the clue 1, then all conditions are met and three bridges can be drawn. The same logic can be applied if an island on the side of the puzzle with the clue 5 or if an island in the middle of the puzzle with the clue 7 have a neighboring island with the clue 1."
+  -
+    "ressources/img/BasicAide3.png"
+  -
+    "In this example we can see an island with a clue 4 in the second row from the bottom. Although the 4 is not on the side of the puzzle, from a logic point of view we can treat it as such because it has neighbors on three sides only. Since no more than two bridges are allowed in the same direction, all conditions are satisfied and four bridges can be drawn: two bridges to the island above, and one bridge to each of the islands on the sides."
+  -
+    "ressources/img/BasicAide4.png"
+  -
+    "Let’s assume the island with the clue 6 is connected to the island with the clue 1. This leaves five bridges, which means there must be at least one bridge connected to islands A, B and C. Now let’s assume the island with the clue 6 is not connected to the island with the clue 1. In this case exactly two bridges must be connected to islands A, B and C. So, regardless of whether or not the island with the clue 6 is connected to the island with the clue 1, there must be at least one bridge connected to islands A, B and C."
+  -
+    "ressources/img/BasicAide5.png"
+aidesIsolationsTitre:
+  -
+    "Isolation of a two-island segment"
+  -
+    "Isolation of a three-island segment"
+  -
+    "Isolation when a segment connects to an island"
+  -
+    "Isolation when a segment connects to another segment"
+aidesIsolations:
+  -
+    "Let’s look at the bottom island with the clue 1 in the right hand column. If we connect it to the other island with the clue 1 as shown in the left diagram then the two islands will become an isolated segment which is not allowed according to the rules of Hashi. So the only other possibility is to connect it to island A. For the same reason the island with the clue 2 in the bottom-left corner cannot be connected with the two bridges to the island on its right as shown in the left diagram. This means that at least one bridge must be connected from the island in the bottom-left corner to island B."
+  -
+    "ressources/img/IsolationAide1.png"
+  -
+    "The above technique can be expanded to segments with three islands. The island with the clue 2 in the bottom row cannot be connected with two bridges as shown in the left diagram because it would then become an isolated 1-2-1 segment. This means there must be at least one bridge to island A. Similarly, the island with the clue 3 in the left column cannot be connected with three bridges as shown in the left diagram because it would then become an isolated 1-3-2 segment. This means there must be at least one bridge to island B."
+  -
+    "ressources/img/IsolationAide2.png"
+  -
+    "Sometimes much longer island segments may become isolated creating logic situations which are harder to find and more interesting to solve. Let’s look at the example in the diagram on the left. What we see is a segment made up of seven islands, where six of the islands are completed and only the island with the clue 3 in the top row has one bridge missing. If we connect this bridge to the island in the top-left corner according to the red line, then we will end up with an isolated segment. Therefore this bridge must be connected to the island with the clue 5 as shown in the diagram on the right."
+  -
+    "ressources/img/IsolationAide3.png"
+  -
+    "In the left diagram we have two segments, one made up of four islands where all islands are completed except the island with the clue 6, and the other made up of eight islands where all islands are also completed except the island with the clue 3. In both segments, the uncompleted islands are missing exactly two bridges. Now, if we were to connect two bridges between these two segments according to the red lines, we will end up with a long isolated segment. Therefore we can deduct that at least one bridge must be connected to the top-left island as shown in the diagram on the right."
+  -
+    "ressources/img/IsolationAide4.png"
+aidesAdvancedTitre:
+  -
+    "Isolating a segment by blocking a bridge"
+  -
+    "Isolating a segment by adding a bridge"
+  -
+    "Isolating an island with bridges"
+  -
+    "Creating bridge-connection conflicts"
+aidesAdvanced:
+  -
+    "If we assume no bridge is connected in the direction of the red X in the left diagram then the five islands must be connected according to the center diagram creating an isolated segment. Therefore there must be at least one bridge going upwards as shown in the right diagram."
+  -
+    "ressources/img/AdvancedAide1.png"
+  -
+    "Let’s look at the top row of the left diagram showing a stage of a Hashi puzzle solution. If we assume the second bridge of the island with the clue 2 is connected to the island on its right then the six island segment will become isolated as shown in the center diagram. Therefore this island must be connected as shown in the diagram on the right. Similarly, the island in the bottom left corner must be connected to the island above."
+  -
+    "ressources/img/AdvancedAide2.png"
+  -
+    "Let’s look at the island with the clue 2 in the left diagram. If we assume there is no bridge in the direction of the red X then the two bridges must be connected as shown in the center diagram. However, this will cause the island with the clue 1 to become isolated because the only other island it can connect to is already completed. Therefore there must be at least one bridge going downwards as shown in the diagram on the right."
+  -
+    "ressources/img/AdvancedAide3.png"
+  -
+    "The island with the clue 1 in the second row can be connected in two directions. Let’s assume it is connected to the island on the far right as shown in the diagram on the left. This leads to a four island segment shown in the center diagram. However, the island with the clue 2 still has one unconnected bridge creating a conflict! Therefore the island with the clue 1 in the second row must be connected to the island under it as shown in the diagram on the right."
+  -
+    "ressources/img/AdvancedAide4.png"

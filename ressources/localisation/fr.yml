@@ -1,0 +1,233 @@
+---
+#MENU PRINCIPAL
+game_title: HASHI
+play_mode: Jouer
+mode_tutorial: Tutoriel
+mode_freeplay: Freeplay
+mode_adv: Aventure
+mode_rank: Classé
+mode_test: Test
+lvl_easy: Facile
+lvl_medium: Moyen
+lvl_difficult: Difficile
+leaders: Classement
+settings: Paramètres
+exit: Quitter
+w_main_menu: Menu Principal - Hashi
+w_choix_grille : Choix de grille - Hashi
+w_settings: Paramètres - Hashi
+#PARAMETRES
+back: Retour
+res: "Résolution :"
+lang: "Langue :"
+theme: "Thème :"
+fscr: "Plein Ecran :"
+apply: Appliquer
+#A PROPOS
+about_title: À propos
+about: "Dans le cadre du semestre 6 de notre 3ème année de licence informatique à l'Université du Maine,\n il nous a été demandé d'élaborer une application de jeu en Ruby et de proposer des aides techniques au puzzle de type Hashi.\n
+ L'équipe de développeur, composée de:\n
+      \t- DEROUAULT Baptiste,\n
+      \t- CHAUVIN Lucien,\n
+      \t- DUBIN Baptiste,\n
+      \t- GIROD Valentin,\n
+      \t- MOTTIER Anaïs,\n
+      \t- RENARD Dorian,\n
+      \t- TSAMARAYEV Moustapha,\n
+      \t- ZHENG Haoran\n
+ vous remercie de tester leur application."
+#CLASSEMENT
+w_ranked: Classement - Hashi
+display: Afficher
+ranked: Classement
+nickname: Pseudo
+time: Temps
+raz: Mettre à zéro
+#GRILLE
+btnJouer: Jouer
+btnCheck : Vérifier
+btnMontrer : Montrer
+btnHypothese : Hypothèse
+btnRetour : Retour
+btnAides : Aides
+aucuneErreur: Il y a pour l'instant aucune erreur
+gagne: Vous avez gagné en
+hypothese: Hypothèse ! Création d'un point de sauvegarde !
+ilY : Il y a
+erreur : erreur(s)
+ile: îles
+pont: ponts
+ingame: Jeu - Hashi
+#GRILLECLASSE
+sauvegarde: Voulez-vous sauvegarder votre score ?
+pseudo: Saisir le pseudo
+augmentationCheck: Si vous avez des erreurs vous allez avoir une augmentation de
+ajoutShow: Êtes-vous sur d'ajouter
+afficherShow: pour afficher les erreurs!
+ajoutAides: Êtes-vous sur d'ajouter de
+entreSecAides: à
+afficherAides: pour afficher les aides!
+#ADVENTURE
+w_adv_title: Aventure - Hashi
+adv_title: Aventure
+reset_message: "Êtes-vous sûr de vouloir perdre votre progression? Vous devrez recommencer de zéro"
+dialog_yes: Oui
+dialog_no: Non
+level: "Niveau "
+#############
+# TUTORIALS #
+#############
+w_tutorial: Tutoriel - Hashi
+tutorial_description: "Ceci est la section Tutoriel.Si vous ne connaissez pas le jeu,\n vous devriez probablement consulter la section Tutoriel basique\ndans laquelle nous expliquons les règles du Hashi et l'interface du jeu.\nSi vous êtes un joueur expérimenté et souhaitez apprendre de nouvelles techniques,\nvous devriez probablement jetter un oeil à la section Tutoriel avancé."
+tutorial_title: Tutoriel
+try_me: Try it!
+basicTitle: Tutoriel Basique
+advancedTitle: Tutoriel Avancée
+
+# AIDE
+titreFenetre: Aides - Hashi
+titrePrincipal: Aides
+btnBasic: Techniques Basiques
+btnIsolation: Techniques d'Isolation
+btnAdvanced: Techniques Avancees
+nonAideTitre: Aucune idée trouvée
+nonAideTexte: Soit toutes les aides ont été déjà données ou sont indisponible au vu de la grille
+next: Suivant
+aidesBasicsTitre:
+  -
+    "Île avec un seul voisin"
+  -
+    "Îles avec 3 dans le coin, 5 sur le côté et 7 au milieu"
+  -
+    "Cas particuliers de 3 dans le coin, 5 sur le côté et 7 au milieu"
+  -
+    "Cas particulier de 4 sur le côté"
+  -
+    "Cas particulier de 6 au milieu"
+aidesBasics:
+  -
+    "L’île qui contient le 2, situé dans la ligne du bas, ne possède qu’un seul voisin qui est à gauche, donc 2 ponts doivent être reliés entre ces îlots. De plus, l’île contenant le 1 situé dans la partie supérieur droite, ne possède aussi qu’un seul voisin situé à sa gauche, ce que signifie qu’un seul pont doit être connecté entre ces îles. Ces 2 îles sont maintenant complété, nous pouvons donc les marqués d’une couleur bleu."
+  -
+    "./ressources/img/Aide/BasicAide1.png"
+  -
+    "Quand une île situé dans un coin contient un 3, elle doit forcément avoir 2 voisins, 1 voisin connecté avec 1 lien et l’autre avec 2. Ce qui signifie que chaque voisin est systématiquement relié avec l’îlot 3, donc 1 lien vers chaque voisin peut déjà être tiré. De même pour une île contenant le chiffre 7 se situant au milieu du puzzle et possédant 4 voisins, ainsi que pour une île avec le chiffre 5 se trouvant sur un côté du puzzle et ayant 3 voisins."
+  -
+    "./ressources/img/Aide/BasicAide2.png"
+  -
+    "Si une île avec l’indice 3 se situe dans un coin et que l’un de ses voisins est une île avec l’indice 1 alors nous pouvons directement tracer un pont vers ce voisin et 2 vers l’autre voisin. C’est le même raisonnement pour une île avec l’indice 7 situé au milieu du puzzle possédant 4 voisins et pour une île avec le chiffre 5 se trouvant sur un côté du puzzle et ayant 3 voisins."
+  -
+    "./ressources/img/Aide/BasicAide3.png"
+  -
+    "Sur l’exemple ci-dessous nous pouvons voir une île contenant le chiffre 4 situé vers le haut à droite.Cette île n’est pas situé sur le côté du puzzle mais vu qu’elle ne possède que 3 voisins dont les 2 voisins sur les côtés contenant le chiffre 1, elle peut être considéré comme telle. Nous pouvons donc tracer les 4 ponts de la façon suivante : 2 vers le bas, et 1 vers chaque île sur les côtés."
+  -
+    "./ressources/img/Aide/BasicAide4.png"
+  -
+    "Sur l’exemple imaginons que l’îlot avec le chiffre 6, possédant 4 voisins, ne soit pas connecté avec l’îlot avec l’indice 1 situé au dessus de lui alors, 2 ponts peuvent être tiré vers les 3 autres voisins. Mais si cette îlot est connecté avec l’îlot contenant le 1 alors, au moins 1 pont est connecté aux 3 autres voisins. Donc on peut affirmer que dans les 2 cas, au moins 1 pont est tiré vers les 3 autres voisins."
+  -
+    "./ressources/img/Aide/BasicAide5.png"
+aidesIsolationsTitre:
+  -
+    "Isolement d’un segment de deux îles"
+  -
+    "Isolement du segment de trois îles"
+  -
+    "Isolement lorsqu’un segment se connecte à une île"
+  -
+    "Isolement lorsqu’un segment se connecte à un autre segment"
+aidesIsolations:
+  -
+    "Si nous connectons l’île avec l’indice 1, situé sur le côté droit, et l’autre île avec le même chiffre situé juste en dessous, comme montré sur l’image de gauche, alors ces îles deviendront isolés ce qui est contre les règles du Hashi. Alors il faut obligatoirement la relié à un autre voisin. Et pour les mêmes raisons nous ne pouvons pas connectés avec une double liaison les 2 îles avec l’indice 2 situé en bas à gauche."
+  -
+    "./ressources/img/Aide/IsolationAide1.png"
+  -
+    "Sur l’exemple de gauche, prenons l’île avec l’indice 2 situé en bas à droite, elle ne peut pas être relié par 2 ponts comme montré ci-dessous car ça deviendrait alors un segment isolé qui n’est pas autorisé dans les règles du Hashi, donc il doit y avoir au moins une liaison avec l’île situé à sa gauche. De même pas l’île avec l’indice 3 situé au centre à gauche qui ne peut pas être connectés avec 3 liaisons pour les mêmes raisons."
+  -
+    "./ressources/img/Aide/IsolationAide2.png"
+  -
+    "Nous pouvons constaté que un segment constitué de plusieurs îles terminés sauf l’île avec l’indice 3 situé sur le côté gauche, est fait. Si nous connectons cette île avec son voisin du bas, comme le montre l’image de gauche, qui est une île avec l’indice 1 alors nous nous retrouverons avec un segment isolé qui n’est pas autorisé dans les règles du Hashi. Donc nous devons obligatoirement la relié avec l’île d’indice 3 situé à sa droite, comme nous le montre l’image de droite."
+  -
+    "./ressources/img/Aide/IsolationAide3.png"
+  -
+    "Dans l’exemple de gauche, il y a 2 segments constitué de 7 îles. Le premier a toute ses îles terminés hormis celle avec l’indice 6, et le second aussi a toute ses îles terminés sauf celle avec l’indice 3. Il leur manque tout deux 2 ponts pour finir leur chemin. Cependant si nous relions les 2 segments entre aux comme le montre l’image alors nous nous retrouvons avec un grand segment isolé, ce qui n’est pas autorisé par les règles du Hashi. Ce qui signifie qu’au moins 1 pont du second segment doit être relié a l’île situé en dessous comme le montre l’image de droite."
+  -
+    "./ressources/img/Aide/IsolationAide4.png"
+aidesAdvancedTitre:
+  -
+    "Isoler un segment en bloquant un pont"
+  -
+    "Isoler un segment en ajoutant un pont"
+  -
+    "Isoler un îlot avec des ponts"
+  -
+    "Création de conflits de connexion de pont"
+aidesAdvanced:
+  -
+    "Dans la situation de l’image de gauche, au niveau de l’île avec l’indice 4 situé en haut à droite aucune liaison n’est faite vers le bas, les cinq îles seront donc liés de la façon dont le montre l’image du centre, cependant un segment isolé est créé qui est interdit par les règles du Hashi. Il doit donc y avoir obligatoirement au moins une liaison vers le bas de cette île comme le montre l’image de droite."
+  -
+    "./ressources/img/Aide/AdvancedAide1.png"
+  -
+    "Dans la situation de l’image de gauche, si un 2ème pont est tracé depuis l’île avec l’indice 2 situé en bas à droite, alors ça entrainera ce que l’on peut voir sur l’image du centre, c’est-à-dire un segment isolé de 6 îles ce qui est interdit par les règles du Hashi. Nous devons donc laissé un seul pont vers le voisin du haut et en tiré un autre vers le voisin de gauche comme le montre l’image de droite."
+  -
+    "./ressources/img/Aide/AdvancedAide2.png"
+  -
+    "Dans la situation de l’image de gauche, si nous supposons qu’aucun lien n’est fait vers le bas de l’île avec l’indice 2 situé au centre du puzzle alors l’île avec l’indice 2 aura ses 2 ponts tracés de la même façon que dans l’image du centre mais l’île avec l’indice 1 situe en haut à droite sera donc isolé. Nous devons donc avoir une liaison vers le bas de cette île comme montré dans l’image de droite."
+  -
+    "./ressources/img/Aide/AdvancedAide3.png"
+  -
+    "Dans la situation de l’image de gauche, l’île avec l’indice 1 la plus en haut à droite peut avoir son lien dans 2 directions différentes, et on suppose que se soit le pont vers son voisin d’en bas qui soit tiré. Cette situation conduirait à un segment de 4 îles comme dans l’image du centre, mais il manque toujours un pont à l’île avec l’indice 2 situé à gauche. Donc l’île avec l’indice 1 doit être connecté avec l’île situé en haut à gauche comme le montre l’image de droite."
+  -
+    "./ressources/img/Aide/AdvancedAide4.png"
+
+##################
+# Basic Tutorial #
+##################
+bt_rules:
+  "Hashi est un jeu de type puzzle où votre objectif est de connecter\n toutes les îles avec des ponts.\nIl y a beaucoup de règles, voyons-les ensemple. Cliquez simplement sur CONTINUER\n"
+
+bt_rules_0: "Ces cercles sont appelés des îles. Les lignes entre elles sont des ponts, ou liens.\n"
+bt_rules_1: "Les ponts peuvent être seulement verticaux ou horizontaux.\nIls ne peuvent pas se coiser, donc vous ne pouvez pas connecter\n les îles rouges comme montré ici.\n"
+bt_rules_2: "Les nombres dans les îles représentent\n le nombre de ponts qui doivent êtres connectés à cette île.\nDeux îles peuvent être connectées à deux ponts maximum.\n"
+bt_rules_3: "Le niveau est finis quand tous les ponts sont interconnectés,\n autorisant le passage de n'importe quelle île à n'importe quelle autre île.\n"
+bt_rules_4: "Maintenant que vous connaissez les bases, familliarisons-nous avec l'interface.\n"
+
+#START
+bt_event_0: "Lorsque vous arrivez sur l'hashi,\nvous allez devoir commencer par cliquer sur le bouton de lancement.\nDe ce fait un chronomètre va se lancer et vous pourrez jouer.\nUne multitude de commandes vous sera présenté à travers ce tutorial."
+#CHECK
+bt_event_1: "Ce bouton vous permet de vérifier votre grille.\nIl est activable à tout moment du jeu,\net vous donnera votre nombre d'erreurs, île et pont.\nMais en mode classé, il vous coutera du temps de l'activer."
+#SHOW
+bt_event_2: "Ce bouton vous permet d'afficher toutes vos erreurs.\nIl est uniquement activable après avoir vérifié votre grille.\nEn mode classé,il vous coutera également du temps de l'activer."
+#UNDO
+bt_event_3: "Ce bouton vous permet d'effectuer un retour en arrière.\nTrès pratique en cas de plusieurs erreurs ou d'erreur de clic.\nIl est activable à tout moment et à volonté."
+#REDO
+bt_event_4: "Ce bouton vous permet d'effectuer un retour en avant.\nTrès pratique en cas de plusieurs erreurs ou d'erreur de clic.\nIl est activable à tout moment et à volonté."
+#RESET
+bt_event_5: "Ce bouton vous permet de recommencer à zéro le niveau.\nIl est activable à tout moment.\nMais attention, il n'y a pas de retour en arrière pour ce dernier."
+#LANCER
+bt_event_6: "Ce bouton vous permet de reprendre une partie.\nIl peut être activé après une pause ou une remise à zéro."
+#HELP
+bt_event_7: "Ce bouton vous permet d'afficher une fenêtre d'aide.\nSi vous êtes bloqués dans un niveau, n'hésitez pas à vous en servir.\nEn mode classé, une aide coute du temps."
+#HYPOTHESE
+bt_event_8: "Ce bouton vous permet d'effectuer un point de sauvegarde ou hypothèse.\nIl vous permet de sauvegarder l'état actuel de la partie.\nIl est activable à tout moment."
+#RETOUR TO HYPOTHSE
+bt_event_9: "Ce bouton vous permet de faire un retour à l'hypothèse.\nAprès qu'il soit activé vous reviendrez à l'état de l'hypothèse.\nIl est activable uniquement après avoir fait une hypothèse."
+#PARAMETRES
+bt_event_10: "Ce bouton vous permet d'afficher les paramètres.\nUtile pour changer de résolution ou bien de langues.\n"
+#QUITTER
+bt_event_11: "Ce bouton vous permet de quitter le jeu.\nNe vous en faites pas, il sauvegarde la partie automatiquement.\nIl est activable à tout moment."
+
+
+#####################
+# Advanced Tutorial #
+#####################
+trigger_0: "Nous vous conseillons de vous interesser dans un premier temps\nau tutoriel basique avant celui-ci. Ici nous allons vous expliquer\nquelques techniques de jeu. Lisez le texte en haut avant de\ncliquez sur le bouton avancé ↷ pour progresser dans le tutoriel."
+trigger_1: "Commençons par l'île de valeur 8 puisque sa résolution est\ninstinctive. Une île de valeur 8 a automatiquement 4 voisins, on\nsait donc que chacun des voisins sera relié par deux ponts à\nl'île 8. L'île est complète."
+trigger_2: "Continuons avec l'île 5, sa solution est évidente car elle est sur\nle côté et à un voisin égal à 1. On la relie donc relié à ses 3\nvoisins. L'île 1 n'a pas d'autres voisins, elle est reliée à\nl'île 5. Le pont vers l'ile 4 se fait par déduction."
+trigger_3: "Avançons avec l'île de valeur 6 (3 voisins), puisque sa solution\nest instinctive. Ayant 3 voisins, chacun aura donc deux ponts\nvers l'île 6. Les îles 2 et 6 sont maintenant complètes."
+trigger_4: "Ile suivante : l'île de valeur 4 à 3 voisins puisque sa résolution\nest évidente à ce moment-là. L'île 1 à sa gauche n'a pas d'autre\nvoisin, on relie donc d'un pont le 1 et le 4, par conséquent on\nrelie l'île 4 d'un pont à l'île 3. Les îles 1 et 4 sont terminées."
+trigger_5: "Finissons le bas du puzzle, l'île 3 (3 voisins), est déjà reliée\nà l'île 4, ses deux autres voisins sont de valeur 1. Par\nconséquent et par logique chacun des voisins libres sont reliées\npar un pont à l'île. L'île est finie."
+trigger_6: "Relions le 1 du bas isolé. L'ile 3 à 2 voisins de valeur 1. L'île\nest déjà reliée par 2 ponts avec l'île 6, elle peut seulement être\nreliée 1 fois à une île. Si l'île 1 du bas n'est pas reliée aux 3\nelle sera isolé (interdit). Il faut la relier avec le 3."
+trigger_7: "Continuons avec l'île de valeur 4 (3 voisins), on peut d'abord\nrelier le 4 à 1 car le 1 est isolé. Puis on relie et termine l'île\n2 du bas avec le 4 car elle n'a pas d'autres voisins. Pour finir,\non relie par déduction d'un pont le 3 au 4 (îles 1,3,2 & 4 finies)."
+trigger_8: "Avançons avec l'île de valeur 4 à 3 voisins, elle est déjà relié\npar 2 ponts au 5. Son voisin du haut le 1 n'a pas d'autres voisins\nque l'île 4, il faut le relier à l'île 4 d'un pont. Par déduction\non relie le dernier voisin disponible (3) d'un pont vers le 4."
+trigger_9: "Ile suivante : L'île 3 (2 voisins). Elle est déjà reliée à son\nvoisin de gauche (4), d'un pont. Son dernier voisin disponible est\nl'île 3, par conséquent, on relie les deux iles ensemble avec\ndeux ponts. L'île 3 est complète."
+trigger_10: "L'île de valeur 3 possède 2 voisins, elle est déjà reliée à son\nvoisin du bas de deux ponts. Il reste donc un seul pont à faire\npour terminer l'île. Par conséquent on relie l'île à son voisin\nde valeur 3 par un pont. L'île 3 est finie."
+trigger_11: "Terminons le puzzle par l'île 3 à 2 voisins. L'île voisine de\nvaleur 2 n'a pas d'autres voisins ce qui veut dire qu'il faut\nimpérativement relier l'île 2 à l'île 3. Les deux îles sont\ninfinies. Le puzzle est terminé."

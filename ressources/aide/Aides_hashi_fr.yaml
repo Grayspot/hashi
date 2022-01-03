@@ -1,0 +1,91 @@
+---
+titreFenetre: Aides - Hashi
+titrePrincipal: Aides
+btnRetour: Retour
+btnBasic: Techniques Basiques
+btnIsolation: Techniques d'Isolation
+btnAdvanced: Techniques Avancees
+aidesBasicsTitre:
+  -
+    "Île avec un seul voisin"
+  -
+    "Îles avec 3 dans le coin, 5 sur le côté et 7 au milieu"
+  -
+    "Cas particuliers de 3 dans le coin, 5 sur le côté et 7 au milieu"
+  -
+    "Cas particulier de 4 sur le côté"
+  -
+    "Cas particulier de 6 au milieu"
+aidesBasics:
+  -
+    "L'île contenant 1 dans la rangée du bas n'a qu'un seul voisin à sa droite, ce qui signifie que nous devons connecter un seul pont entre ces îles. De même, l'île contenant 2 en haut à droite n'a qu'un seul voisin en dessous, ce qui signifie qu'il faut relier deux ponts entre ces îles. Dans les deux cas, l'îlot contenant 1 et l'îlot contenant 2 sont complétés, ce qui signifie qu'ils peuvent être marqués d'un X. Notez qu'une île avec un seul voisin ne peut jamais en contenir 3 ou plus car cela enfreindra les règles de Hashi."
+  -
+    "ressources/img/BasicAide1.png"
+  -
+    "Une île dans un coin avec l'indice 3 doit avoir deux voisins, avec un pont qui se connecte à un voisin et deux ponts connectés à l'autre voisin. Bien que nous ne sachions pas quel voisin a deux ponts, nous pouvons être certains qu'il y a au moins un pont dans chaque direction, comme on le voit avec l'île dans le coin inférieur gauche de cet exemple. De même, une île du côté du puzzle avec l'indice 5 doit avoir au moins un pont connecté à chacun de ses trois voisins et une île au milieu du puzzle avec l'indice 7 doit avoir au moins un pont connecté à chacun de ses quatre voisins."
+  -
+    "ressources/img/BasicAide2.png"
+  -
+    "Si une île dans un coin a un indice 3 et que l'un de ses voisins est une île avec l'indice 1, alors toutes les conditions sont remplies et trois ponts peuvent être dessinés. La même logique peut être appliquée si une île du côté du puzzle avec l'indice 5 ou si une île au milieu du puzzle avec l'indice 7 a une île voisine avec l'indice 1."
+  -
+    "ressources/img/BasicAide3.png"
+  -
+    "Dans cet exemple, nous pouvons voir une île avec un indice 4 dans la deuxième rangée à partir du bas. Bien que le 4 ne soit pas du côté du puzzle, d'un point de vue logique, nous pouvons le traiter comme tel car il a des voisins sur trois côtés seulement. Étant donné que pas plus de deux ponts sont autorisés dans la même direction, toutes les conditions sont remplies et quatre ponts peuvent être tracés: deux ponts vers l'île au-dessus et un pont vers chacune des îles sur les côtés."
+  -
+    "ressources/img/BasicAide4.png"
+  -
+    "Supposons que l'île avec l'indice 6 soit connectée à l'île avec l'indice 1. Cela laisse cinq ponts, ce qui signifie qu'il doit y avoir au moins un pont connecté aux îles A, B et C. Supposons maintenant l'île avec l'indice 6 n'est pas connecté à l'île avec l'indice 1. Dans ce cas, exactement deux ponts doivent être connectés aux îles A, B et C. Donc, que l'île avec l'indice 6 soit ou non connectée à l'île avec l'indice 1, il doit y avoir au moins un pont connecté à l'îlot A, B et C"
+  -
+    "ressources/img/BasicAide5.png"
+aidesIsolationsTitre:
+  -
+    "Isolement d’un segment de deux îles"
+  -
+    "Isolement du segment de trois îles"
+  -
+    "Isolement lorsqu’un segment se connecte à une île"
+  -
+    "Isolement lorsqu’un segment se connecte à un autre segment"
+aidesIsolations:
+  -
+    "Regardons l’île du bas avec l’indice 1 dans la colonne de droite. Si nous le relions à l’autre île avec l’indice 1 comme montré dans le diagramme de gauche alors les deux îles deviendront un segment isolé qui n’est pas autorisé selon les règles de Hashi. Donc la seule autre possibilité est de le relier à l’île A. Pour la même raison l’île avec l’indice 2 dans le coin inférieur gauche ne peut pas être reliée avec les deux ponts à l’île sur sa droite comme indiqué dans le diagramme de gauche. Cela signifie qu’au moins un pont doit être relié de l’île dans le coin inférieur gauche à l’île B."
+  -
+    "ressources/img/IsolationAide1.png"
+  -
+    "La technique ci-dessus peut être étendue à des segments avec trois îles. L’île avec l’indice 2 dans la rangée inférieure ne peut pas être connectée avec deux ponts comme montré dans le diagramme de gauche parce qu’il deviendrait alors un segment isolé 1-2-1. Cela signifie qu’il doit y avoir au moins un pont vers l’île A. De même, l’île avec l’indice 3 dans la colonne de gauche ne peut pas être connectée avec trois ponts comme indiqué dans le diagramme de gauche parce qu’il deviendrait alors un segment isolé 1-3-2. Cela signifie qu’il doit y avoir au moins un pont vers l’île B."
+  -
+    "ressources/img/IsolationAide2.png"
+  -
+    "Parfois, des segments insulaires beaucoup plus longs peuvent devenir isolés, créant des situations logiques plus difficiles à trouver et plus intéressantes à résoudre. Regardons l’exemple dans le diagramme de gauche. Ce que nous voyons est un segment composé de sept îles, où six des îles sont terminées et seule l’île avec l’indice 3 dans la rangée supérieure a un pont manquant. Si nous relions ce pont à l’île dans le coin supérieur gauche en fonction de la ligne rouge, alors nous nous retrouverons avec un segment isolé. Par conséquent, ce pont doit être relié à l’île avec l’indice 5 comme indiqué dans le diagramme à droite."
+  -
+    "ressources/img/IsolationAide3.png"
+  -
+    "Dans le diagramme de gauche, nous avons deux segments, l’un composé de quatre îles où toutes les îles sont complétées sauf l’île avec l’indice 6, et l’autre composé de huit îles où toutes les îles sont également complétées sauf l’île avec l’indice 3. Dans les deux segments, il manque exactement deux ponts aux îles non achevées. Maintenant, si nous devions relier deux ponts entre ces deux segments selon les lignes rouges, nous nous retrouverions avec un long segment isolé. On peut donc déduire qu’au moins un pont doit être relié à l’île en haut à gauche comme le montre le diagramme de droite."
+  -
+    "ressources/img/IsolationAide4.png"
+aidesAdvancedTitre:
+  -
+    "Isoler un segment en bloquant un pont"
+  -
+    "Isoler un segment en ajoutant un pont"
+  -
+    "Isoler un îlot avec des ponts"
+  -
+    "Création de conflits de connexion de pont"
+aidesAdvanced:
+  -
+    "Si nous supposons qu'aucun pont n'est connecté dans la direction du X rouge dans le diagramme de gauche, les cinq îles doivent être connectées selon le diagramme central créant un segment isolé. Par conséquent, il doit y avoir au moins un pont montant comme indiqué sur le schéma de droite. Isoler un segment en bloquant un pont (A) Isoler un segment en bloquant un pont (B) Isoler un segment en bloquant un pont (C)"
+  -
+    "ressources/img/AdvancedAide1.png"
+  -
+    "Examinons la rangée supérieure du diagramme de gauche montrant une étape d'une solution de puzzle Hashi. Si nous supposons que le deuxième pont de l'île avec l'indice 2 est connecté à l'île à sa droite, le segment des six îles deviendra isolé comme indiqué dans le diagramme du centre. Par conséquent, cet îlot doit être connecté comme indiqué sur le schéma de droite. De même, l'îlot dans le coin inférieur gauche doit être connecté à l'îlot du dessus. Isoler un segment en ajoutant un pont (A) Isoler un segment en ajoutant un pont (B) Isoler un segment en ajoutant un pont (C)"
+  -
+    "ressources/img/AdvancedAide2.png"
+  -
+    "Regardons l'île avec l'indice 2 dans le diagramme de gauche. Si nous supposons qu'il n'y a pas de pont dans la direction du X rouge, les deux ponts doivent être connectés comme indiqué dans le diagramme central. Cependant, cela entraînera l'isolement de l'île avec l'indice 1 car la seule autre île à laquelle elle peut se connecter est déjà terminée. Par conséquent, il doit y avoir au moins un pont descendant comme indiqué sur le schéma de droite. Isoler un îlot avec des ponts (A) Isoler un îlot avec des ponts (B) Isoler un îlot avec des ponts (C)"
+  -
+    "ressources/img/AdvancedAide3.png"
+  -
+    "L'île avec l'indice 1 dans la deuxième rangée peut être connectée dans deux directions. Supposons qu'il soit connecté à l'îlot à l'extrême droite, comme illustré dans le diagramme de gauche. Cela conduit à un segment de quatre îlots illustré dans le diagramme central. Cependant, l'île avec l'indice 2 a toujours un pont non connecté créant un conflit! Par conséquent, l'îlot avec l'indice 1 dans la deuxième rangée doit être connecté à l'îlot en dessous comme indiqué sur le schéma de droite."
+  -
+    "ressources/img/AdvancedAide4.png"

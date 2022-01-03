@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Class: Adventure
+  
+    &mdash; Documentation by YARD 0.9.26
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "Adventure";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index (A)</a> &raquo;
+    
+    
+    <span class="title">Adventure</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Class: Adventure
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+  <dl>
+    <dt>Inherits:</dt>
+    <dd>
+      <span class="inheritName">Object</span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next">Adventure</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+    </dd>
+  </dl>
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>src/Menu/Adventure.rb</dd>
+  </dl>
+  
+</div>
+
+<h2>Overview</h2><div class="docstring">
+  <div class="discussion">
+    
+<p>Classe permettante de représenter le sélecteur du mode aventure.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Author:</p>
+<ul class="author">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'>
+<p>Moustapha TSAMARAYEV</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div>
+  
+    <h2>
+      Constant Summary
+      <small><a href="#" class="constants_summary_toggle">collapse</a></small>
+    </h2>
+
+    <dl class="constants">
+      
+        <dt id="curLVL-classvariable" class="">@@curLVL =
+          <div class="docstring">
+  <div class="discussion">
+    
+<p>This variable represents current level #</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div>
+        </dt>
+        <dd><pre class="code"><span class='int'>0</span></pre></dd>
+      
+    </dl>
+  
+
+
+
+
+
+
+
+  
+    <h2>
+      Class Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#avance-class_method" title="avance (class method)">.<strong>avance</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet de faire avancer la progression.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#creer-class_method" title="creer (class method)">.<strong>creer</strong>(window, fenetrePrec)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#getProgress-class_method" title="getProgress (class method)">.<strong>getProgress</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet d&#39;afficher la progression.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#progressionCourant-class_method" title="progressionCourant (class method)">.<strong>progressionCourant</strong>  &#x21d2; Integer </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet de récupérer la progression courante.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#refresh-class_method" title="refresh (class method)">.<strong>refresh</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet de rafraichir tous les boutons et les labels.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#sauvegarderProgression-class_method" title="sauvegarderProgression (class method)">.<strong>sauvegarderProgression</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet de sauvegarder la progression dans le fichier.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#chargerProgression-instance_method" title="#chargerProgression (instance method)">#<strong>chargerProgression</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet de charger la progression depuis le fichier progression.txt.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#creerFenetreEtFormat-instance_method" title="#creerFenetreEtFormat (instance method)">#<strong>creerFenetreEtFormat</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet de créer le container et l&#39;affecter à la fenêtre.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#initialize-instance_method" title="#initialize (instance method)">#<strong>initialize</strong>(window, fenetrePrec)  &#x21d2; Adventure </a>
+    
+
+    
+  </span>
+  
+  
+    <span class="note title constructor">constructor</span>
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>A new instance of Adventure.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#supprimerFichierSauvegarde-instance_method" title="#supprimerFichierSauvegarde (instance method)">#<strong>supprimerFichierSauvegarde</strong>(id)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Permet de supprimer le fichier de sauvegarde en fonction d&#39;un id donné.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#supprimerFichiersSauvegarde-instance_method" title="#supprimerFichiersSauvegarde (instance method)">#<strong>supprimerFichiersSauvegarde</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Dans le cas d&#39;une remise à zéro, permet de détruire tous les fichiers de sauvegarde.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <div class="method_details first">
+  <h3 class="signature first" id="initialize-instance_method">
+  
+    #<strong>initialize</strong>(window, fenetrePrec)  &#x21d2; <tt><span class='object_link'><a href="" title="Adventure (class)">Adventure</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Returns a new instance of Adventure.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>fenetrePrec</span>
+      
+      
+        <span class='type'>(<tt>Gtk::Grid</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Le container précédent</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 57</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span><span class='lparen'>(</span><span class='id identifier rubyid_window'>window</span><span class='comma'>,</span><span class='id identifier rubyid_fenetrePrec'>fenetrePrec</span><span class='rparen'>)</span>
+
+		<span class='comment'>#######################
+</span>		<span class='comment'># BASE INITIALIZATION #
+</span>		<span class='comment'>#######################
+</span>
+    <span class='ivar'>@window</span> <span class='op'>=</span> <span class='id identifier rubyid_window'>window</span>
+    <span class='ivar'>@fenetrePrec</span> <span class='op'>=</span> <span class='id identifier rubyid_fenetrePrec'>fenetrePrec</span>
+    <span class='ivar'>@grid</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Grid</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span>
+    <span class='id identifier rubyid_creerFenetreEtFormat'>creerFenetreEtFormat</span><span class='lparen'>(</span><span class='rparen'>)</span>
+		<span class='ivar'>@title</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Label</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>mode_adv</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+		<span class='ivar'>@title</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Title</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='ivar'>@title</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>3</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+    <span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_set_column_homogeneous'>set_column_homogeneous</span><span class='lparen'>(</span><span class='kw'>true</span><span class='rparen'>)</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_set_row_homogeneous'>set_row_homogeneous</span><span class='lparen'>(</span><span class='kw'>false</span><span class='rparen'>)</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_set_row_spacing'>set_row_spacing</span><span class='lparen'>(</span><span class='int'>10</span><span class='rparen'>)</span>
+    <span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_set_title'>set_title</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>w_adv_title</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+    <span class='ivar'>@title</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Label</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>adv_title</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+
+		<span class='comment'>###################################
+</span>		<span class='comment'># BUTTON AND LABEL INITIALIZATION #
+</span>		<span class='comment'>###################################
+</span>
+
+		<span class='id identifier rubyid_chargerProgression'>chargerProgression</span><span class='lparen'>(</span><span class='rparen'>)</span>
+		<span class='cvar'>@@curLVL</span><span class='op'>=</span><span class='const'><span class='object_link'><a href="" title="Adventure (class)">Adventure</a></span></span><span class='period'>.</span><span class='id identifier rubyid_progressionCourant'><span class='object_link'><a href="#progressionCourant-class_method" title="Adventure.progressionCourant (method)">progressionCourant</a></span></span>
+
+		<span class='comment'>#Bouton qui contient l&#39;image de niveau courant
+</span>		<span class='cvar'>@@preview</span><span class='op'>=</span><span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Button</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='symbol'>:label</span><span class='op'>=&gt;</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+		<span class='cvar'>@@preview</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Preview</span><span class='embexpr_beg'>#{</span><span class='cvar'>@@curLVL</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+		<span class='cvar'>@@preview</span><span class='period'>.</span><span class='id identifier rubyid_set_alignment'>set_alignment</span><span class='lparen'>(</span><span class='int'>1</span><span class='comma'>,</span><span class='float'>0.5</span><span class='rparen'>)</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='cvar'>@@preview</span><span class='comma'>,</span> <span class='int'>0</span><span class='comma'>,</span> <span class='int'>1</span><span class='comma'>,</span> <span class='int'>3</span><span class='comma'>,</span> <span class='int'>1</span><span class='rparen'>)</span>
+
+
+		<span class='comment'>#La barre de progression
+</span>		<span class='cvar'>@@barre</span><span class='op'>=</span><span class='const'>Gtk</span><span class='op'>::</span><span class='const'>ProgressBar</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_set_fraction'>set_fraction</span><span class='lparen'>(</span><span class='cvar'>@@curLVL</span><span class='op'>/</span><span class='float'>8.0</span><span class='rparen'>)</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='cvar'>@@barre</span><span class='comma'>,</span> <span class='int'>0</span><span class='comma'>,</span> <span class='int'>2</span><span class='comma'>,</span> <span class='int'>3</span><span class='comma'>,</span> <span class='int'>1</span><span class='rparen'>)</span>
+
+		<span class='comment'>#Label de niveau courant
+</span>		<span class='id identifier rubyid_str_curLVL'>str_curLVL</span><span class='op'>=</span><span class='cvar'>@@curLVL</span><span class='op'>+</span><span class='int'>1</span>
+		<span class='id identifier rubyid_lvl_display'>lvl_display</span><span class='op'>=</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>level</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='op'>+</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_str_curLVL'>str_curLVL</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+		<span class='cvar'>@@lvlName</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Label</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='id identifier rubyid_lvl_display'>lvl_display</span><span class='rparen'>)</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='cvar'>@@lvlName</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>3</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+
+		<span class='comment'>#Bouton &#39;precedent&#39;
+</span>		<span class='id identifier rubyid_prev_lvl'>prev_lvl</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Button</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='symbol'>:label</span><span class='op'>=&gt;</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>⇐</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_prev_lvl'>prev_lvl</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>BoutonAdv</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_prev_lvl'>prev_lvl</span><span class='period'>.</span><span class='id identifier rubyid_relief'>relief</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>ReliefStyle</span><span class='op'>::</span><span class='const'>NONE</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='id identifier rubyid_prev_lvl'>prev_lvl</span><span class='comma'>,</span><span class='int'>0</span><span class='comma'>,</span><span class='int'>3</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+
+		<span class='comment'>#Bouton &#39;suivant&#39;
+</span>		<span class='id identifier rubyid_next_lvl'>next_lvl</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Button</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='symbol'>:label</span><span class='op'>=&gt;</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>⇒</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_next_lvl'>next_lvl</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>BoutonAdv</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_next_lvl'>next_lvl</span><span class='period'>.</span><span class='id identifier rubyid_relief'>relief</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>ReliefStyle</span><span class='op'>::</span><span class='const'>NONE</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='id identifier rubyid_next_lvl'>next_lvl</span><span class='comma'>,</span><span class='int'>2</span><span class='comma'>,</span><span class='int'>3</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+
+		<span class='comment'>#Bouton &#39;jouer&#39;
+</span>		<span class='id identifier rubyid_start'>start</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Button</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='symbol'>:label</span><span class='op'>=&gt;</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>btnJouer</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_start'>start</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>BoutonAdv</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_start'>start</span><span class='period'>.</span><span class='id identifier rubyid_relief'>relief</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>ReliefStyle</span><span class='op'>::</span><span class='const'>NONE</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='id identifier rubyid_start'>start</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>4</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+
+		<span class='comment'>#Bouton &#39;remise à zero&#39;
+</span>		<span class='id identifier rubyid_reset'>reset</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Button</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='symbol'>:label</span> <span class='op'>=&gt;</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>⟲</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_reset'>reset</span><span class='period'>.</span><span class='id identifier rubyid_set_alignment'>set_alignment</span><span class='lparen'>(</span><span class='float'>0.76</span><span class='comma'>,</span><span class='float'>0.5</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_reset'>reset</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>UnderButton</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_reset'>reset</span><span class='period'>.</span><span class='id identifier rubyid_relief'>relief</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>ReliefStyle</span><span class='op'>::</span><span class='const'>NONE</span>
+		<span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='id identifier rubyid_reset'>reset</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>4</span><span class='comma'>,</span><span class='int'>2</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+
+		<span class='comment'>#Bouton &#39;retour&#39;
+</span>    <span class='id identifier rubyid_button'>button</span> <span class='op'>=</span> <span class='const'>Gtk</span><span class='op'>::</span><span class='const'>Button</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='symbol'>:label</span> <span class='op'>=&gt;</span> <span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>back</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_button'>button</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>BoutonAdv</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+    <span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_attach'>attach</span><span class='lparen'>(</span><span class='id identifier rubyid_button'>button</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>5</span><span class='comma'>,</span><span class='int'>1</span><span class='comma'>,</span><span class='int'>1</span><span class='rparen'>)</span>
+
+		<span class='comment'>##########################
+</span>		<span class='comment'># PATH TO CURRENT LEVEL  #
+</span>		<span class='comment'>##########################
+</span>
+    <span class='cvar'>@@path</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/maps/Aventure/</span><span class='embexpr_beg'>#{</span><span class='cvar'>@@curLVL</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+
+		<span class='comment'>#########################
+</span>		<span class='comment'># CLICK EVENT LISTENERS #
+</span>		<span class='comment'>#########################
+</span>
+		<span class='comment'>#Bouton &#39;jouer&#39;
+</span>		<span class='id identifier rubyid_start'>start</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+			<span class='cvar'>@@path</span><span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/maps/Aventure/</span><span class='embexpr_beg'>#{</span><span class='cvar'>@@curLVL</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+			<span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@grid</span><span class='rparen'>)</span>
+			<span class='const'><span class='object_link'><a href="GrilleAventureUI.html" title="GrilleAventureUI (class)">GrilleAventureUI</a></span></span><span class='period'>.</span><span class='id identifier rubyid_creer'><span class='object_link'><a href="GrilleUI.html#creer-class_method" title="GrilleUI.creer (method)">creer</a></span></span><span class='lparen'>(</span><span class='cvar'>@@path</span><span class='comma'>,</span><span class='ivar'>@window</span><span class='comma'>,</span><span class='ivar'>@grid</span><span class='rparen'>)</span>
+		<span class='rbrace'>}</span>
+
+		<span class='comment'>#Bouton &#39;remise à zero&#39;
+</span>		<span class='id identifier rubyid_reset'>reset</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+			<span class='id identifier rubyid_response'>response</span><span class='op'>=</span><span class='id identifier rubyid_popup_message'>popup_message</span><span class='lparen'>(</span><span class='ivar'>@window</span><span class='comma'>,</span><span class='kw'>true</span><span class='comma'>,</span> <span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>reset_message</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+			<span class='kw'>if</span> <span class='id identifier rubyid_response'>response</span><span class='op'>==</span><span class='int'>1</span>
+<span class='cvar'>@@curLVL</span><span class='op'>=</span><span class='int'>0</span>
+<span class='cvar'>@@progression</span><span class='op'>=</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>1</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>0</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>0</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>0</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>0</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>0</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>0</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>0</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>0</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+<span class='cvar'>@@curLVL</span><span class='op'>=</span><span class='const'><span class='object_link'><a href="" title="Adventure (class)">Adventure</a></span></span><span class='period'>.</span><span class='id identifier rubyid_progressionCourant'><span class='object_link'><a href="#progressionCourant-class_method" title="Adventure.progressionCourant (method)">progressionCourant</a></span></span><span class='lparen'>(</span><span class='rparen'>)</span>
+<span class='const'><span class='object_link'><a href="" title="Adventure (class)">Adventure</a></span></span><span class='period'>.</span><span class='id identifier rubyid_refresh'><span class='object_link'><a href="#refresh-class_method" title="Adventure.refresh (method)">refresh</a></span></span><span class='lparen'>(</span><span class='rparen'>)</span>
+<span class='const'><span class='object_link'><a href="" title="Adventure (class)">Adventure</a></span></span><span class='period'>.</span><span class='id identifier rubyid_sauvegarderProgression'><span class='object_link'><a href="#sauvegarderProgression-class_method" title="Adventure.sauvegarderProgression (method)">sauvegarderProgression</a></span></span><span class='lparen'>(</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_supprimerFichiersSauvegarde'>supprimerFichiersSauvegarde</span><span class='lparen'>(</span><span class='rparen'>)</span>
+			<span class='kw'>end</span>
+		<span class='rbrace'>}</span>
+
+		<span class='comment'>#Bouton &#39;precedent&#39;
+</span>		<span class='id identifier rubyid_prev_lvl'>prev_lvl</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+			<span class='comment'>#Incremente le niveau courant si possible
+</span>			<span class='kw'>if</span> <span class='cvar'>@@curLVL</span><span class='op'>&gt;</span><span class='int'>0</span>
+<span class='cvar'>@@curLVL</span><span class='op'>-=</span><span class='int'>1</span>
+<span class='cvar'>@@path</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/maps/Aventure/</span><span class='embexpr_beg'>#{</span><span class='cvar'>@@curLVL</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+<span class='const'><span class='object_link'><a href="" title="Adventure (class)">Adventure</a></span></span><span class='period'>.</span><span class='id identifier rubyid_refresh'><span class='object_link'><a href="#refresh-class_method" title="Adventure.refresh (method)">refresh</a></span></span><span class='lparen'>(</span><span class='rparen'>)</span>
+			<span class='kw'>end</span>
+		<span class='rbrace'>}</span>
+
+		<span class='comment'>#Bouton &#39;suivant&#39;
+</span>		<span class='id identifier rubyid_next_lvl'>next_lvl</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+			<span class='comment'>#Decremente le niveau courant si possible
+</span>			<span class='kw'>if</span> <span class='cvar'>@@curLVL</span><span class='op'>&lt;</span><span class='int'>8</span> <span class='op'>&amp;&amp;</span> <span class='cvar'>@@progression</span><span class='lbracket'>[</span><span class='cvar'>@@curLVL</span><span class='op'>+</span><span class='int'>1</span><span class='rbracket'>]</span><span class='op'>!=</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>0</span><span class='tstring_end'>&quot;</span></span>
+<span class='cvar'>@@curLVL</span><span class='op'>+=</span><span class='int'>1</span>
+<span class='cvar'>@@path</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/maps/Aventure/</span><span class='embexpr_beg'>#{</span><span class='cvar'>@@curLVL</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+<span class='const'><span class='object_link'><a href="" title="Adventure (class)">Adventure</a></span></span><span class='period'>.</span><span class='id identifier rubyid_refresh'><span class='object_link'><a href="#refresh-class_method" title="Adventure.refresh (method)">refresh</a></span></span><span class='lparen'>(</span><span class='rparen'>)</span>
+			<span class='kw'>end</span>
+		<span class='rbrace'>}</span>
+
+    <span class='comment'>#Bouton &#39;retour&#39;
+</span>    <span class='id identifier rubyid_button'>button</span><span class='period'>.</span><span class='id identifier rubyid_signal_connect'>signal_connect</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>clicked</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbrace'>{</span>
+        <span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_set_title'>set_title</span><span class='lparen'>(</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>w_main_menu</span><span class='tstring_end'>&quot;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+        <span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_remove'>remove</span><span class='lparen'>(</span><span class='ivar'>@grid</span><span class='rparen'>)</span>
+        <span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_add'>add</span><span class='lparen'>(</span><span class='ivar'>@fenetrePrec</span><span class='rparen'>)</span>
+        <span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_show_all'>show_all</span>
+    <span class='rbrace'>}</span>
+    <span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_show_all'>show_all</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+  
+</div>
+
+
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="avance-class_method">
+  
+    .<strong>avance</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet de faire avancer la progression. Avant : 2,1,0,0,0. Après : 2,2,1,0,0.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 236</span>
+
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_avance'>avance</span>
+	<span class='kw'>if</span> <span class='cvar'>@@progression</span><span class='lbracket'>[</span><span class='cvar'>@@curLVL</span><span class='rbracket'>]</span> <span class='op'>!=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>2</span><span class='tstring_end'>&#39;</span></span>
+		<span class='cvar'>@@progression</span><span class='lbracket'>[</span><span class='cvar'>@@curLVL</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>2</span><span class='tstring_end'>&#39;</span></span>
+		<span class='kw'>if</span> <span class='cvar'>@@curLVL</span> <span class='op'>&lt;</span> <span class='int'>8</span> <span class='op'>&amp;&amp;</span> <span class='lparen'>(</span><span class='cvar'>@@progression</span><span class='lbracket'>[</span><span class='cvar'>@@curLVL</span> <span class='op'>+=</span> <span class='int'>1</span><span class='rbracket'>]</span><span class='op'>!=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>2</span><span class='tstring_end'>&#39;</span></span> <span class='op'>||</span> <span class='cvar'>@@progression</span><span class='lbracket'>[</span><span class='cvar'>@@curLVL</span> <span class='op'>+=</span> <span class='int'>1</span><span class='rbracket'>]</span><span class='op'>!=</span><span class='kw'>nil</span><span class='rparen'>)</span>
+	  		<span class='cvar'>@@progression</span><span class='lbracket'>[</span><span class='cvar'>@@curLVL</span><span class='rbracket'>]</span> <span class='op'>=</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>1</span><span class='tstring_end'>&#39;</span></span>
+		<span class='kw'>end</span>
+		<span class='cvar'>@@path</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/maps/Aventure/</span><span class='embexpr_beg'>#{</span><span class='cvar'>@@curLVL</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+	<span class='kw'>end</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="creer-class_method">
+  
+    .<strong>creer</strong>(window, fenetrePrec)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>fenetrePrec</span>
+      
+      
+        <span class='type'>(<tt>Gtk::Grid</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Le container précédent</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+48
+49
+50</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 48</span>
+
+<span class='kw'>def</span> <span class='const'><span class='object_link'><a href="" title="Adventure (class)">Adventure</a></span></span><span class='period'>.</span><span class='id identifier rubyid_creer'>creer</span><span class='lparen'>(</span><span class='id identifier rubyid_window'>window</span><span class='comma'>,</span><span class='id identifier rubyid_fenetrePrec'>fenetrePrec</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='id identifier rubyid_window'>window</span><span class='comma'>,</span><span class='id identifier rubyid_fenetrePrec'>fenetrePrec</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="getProgress-class_method">
+  
+    .<strong>getProgress</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet d&#39;afficher la progression.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+261
+262
+263
+264
+265
+266</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 261</span>
+
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_getProgress'>getProgress</span>
+	<span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>===</span><span class='tstring_end'>&quot;</span></span>
+	<span class='id identifier rubyid_puts'>puts</span> <span class='cvar'>@@progression</span>
+	<span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>===</span><span class='tstring_end'>&quot;</span></span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="progressionCourant-class_method">
+  
+    .<strong>progressionCourant</strong>  &#x21d2; <tt>Integer</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet de récupérer la progression courante.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>L&#39;indice de la progression</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+222
+223
+224
+225
+226
+227
+228
+229</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 222</span>
+
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_progressionCourant'>progressionCourant</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='cvar'>@@progression</span><span class='period'>.</span><span class='id identifier rubyid_each_with_index'>each_with_index</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_status'>status</span><span class='comma'>,</span> <span class='id identifier rubyid_position'>position</span><span class='op'>|</span>
+		<span class='kw'>if</span> <span class='id identifier rubyid_status'>status</span> <span class='op'>==</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>1</span><span class='tstring_end'>&quot;</span></span>
+			<span class='kw'>return</span> <span class='id identifier rubyid_position'>position</span>
+		<span class='kw'>end</span>
+	<span class='kw'>end</span>
+	<span class='kw'>return</span> <span class='int'>8</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="refresh-class_method">
+  
+    .<strong>refresh</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet de rafraichir tous les boutons et les labels.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+249
+250
+251
+252
+253
+254
+255
+256</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 249</span>
+
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_refresh'>refresh</span>
+	<span class='id identifier rubyid_str_curLVL'>str_curLVL</span><span class='op'>=</span><span class='cvar'>@@curLVL</span><span class='op'>+</span><span class='int'>1</span>
+	<span class='id identifier rubyid_lvl_display'>lvl_display</span><span class='op'>=</span><span class='gvar'>$local</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>level</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='op'>+</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_str_curLVL'>str_curLVL</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span>
+	<span class='cvar'>@@lvlName</span><span class='period'>.</span><span class='id identifier rubyid_set_label'>set_label</span><span class='lparen'>(</span><span class='id identifier rubyid_lvl_display'>lvl_display</span><span class='rparen'>)</span>
+	<span class='cvar'>@@preview</span><span class='period'>.</span><span class='id identifier rubyid_set_name'>set_name</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='gvar'>$theme</span><span class='embexpr_end'>}</span><span class='tstring_content'>Preview</span><span class='embexpr_beg'>#{</span><span class='cvar'>@@curLVL</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+	<span class='cvar'>@@barre</span><span class='period'>.</span><span class='id identifier rubyid_set_fraction'>set_fraction</span><span class='lparen'>(</span><span class='cvar'>@@curLVL</span><span class='op'>/</span><span class='float'>8.0</span><span class='rparen'>)</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="sauvegarderProgression-class_method">
+  
+    .<strong>sauvegarderProgression</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet de sauvegarder la progression dans le fichier.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+211
+212
+213
+214
+215
+216
+217</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 211</span>
+
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_sauvegarderProgression'>sauvegarderProgression</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_path'>path</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>./ressources/maps/Aventure/progression.txt</span><span class='tstring_end'>&#39;</span></span>
+	<span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='id identifier rubyid_path'>path</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>w</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_input'>input</span><span class='op'>|</span>
+		<span class='id identifier rubyid_input'>input</span><span class='period'>.</span><span class='id identifier rubyid_puts'>puts</span><span class='lparen'>(</span><span class='cvar'>@@progression</span><span class='period'>.</span><span class='id identifier rubyid_join'>join</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>,</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+	<span class='kw'>end</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="chargerProgression-instance_method">
+  
+    #<strong>chargerProgression</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet de charger la progression depuis le fichier progression.txt.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 194</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_chargerProgression'>chargerProgression</span><span class='lparen'>(</span><span class='rparen'>)</span>
+
+	<span class='id identifier rubyid_path'>path</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>./ressources/maps/Aventure/progression.txt</span><span class='tstring_end'>&#39;</span></span>
+	<span class='kw'>if</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_exist?'>exist?</span><span class='lparen'>(</span><span class='id identifier rubyid_path'>path</span><span class='rparen'>)</span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_input'>input</span><span class='op'>=</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_read'>read</span><span class='lparen'>(</span><span class='id identifier rubyid_path'>path</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_split'>split</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>,</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_input'>input</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span><span class='lbrace'>{</span><span class='op'>|</span><span class='id identifier rubyid_c'>c</span><span class='op'>|</span> <span class='cvar'>@@progression</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_c'>c</span><span class='period'>.</span><span class='id identifier rubyid_dup'>dup</span><span class='rbrace'>}</span>
+	<span class='kw'>else</span>
+		<span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span><span class='lparen'>(</span><span class='id identifier rubyid_path'>path</span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>1,0,0,0,0,0,0,0,0</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_input'>input</span><span class='op'>=</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_read'>read</span><span class='lparen'>(</span><span class='id identifier rubyid_path'>path</span><span class='comma'>,</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_split'>split</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>,</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+		<span class='id identifier rubyid_input'>input</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span><span class='lbrace'>{</span><span class='op'>|</span><span class='id identifier rubyid_c'>c</span><span class='op'>|</span> <span class='cvar'>@@progression</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_c'>c</span><span class='period'>.</span><span class='id identifier rubyid_dup'>dup</span><span class='rbrace'>}</span>
+	<span class='kw'>end</span>
+
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="creerFenetreEtFormat-instance_method">
+  
+    #<strong>creerFenetreEtFormat</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet de créer le container et l&#39;affecter à la fenêtre.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+37
+38
+39
+40
+41
+42</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 37</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_creerFenetreEtFormat'>creerFenetreEtFormat</span><span class='lparen'>(</span><span class='rparen'>)</span>
+       <span class='comment'>#On met du padding entre les lignes
+</span>       <span class='ivar'>@grid</span><span class='period'>.</span><span class='id identifier rubyid_set_row_spacing'>set_row_spacing</span><span class='lparen'>(</span><span class='int'>10</span><span class='rparen'>)</span>
+       <span class='ivar'>@window</span><span class='period'>.</span><span class='id identifier rubyid_add'>add</span><span class='lparen'>(</span><span class='ivar'>@grid</span><span class='rparen'>)</span>
+       <span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="supprimerFichierSauvegarde-instance_method">
+  
+    #<strong>supprimerFichierSauvegarde</strong>(id)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Permet de supprimer le fichier de sauvegarde en fonction d&#39;un id donné.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>id</span>
+      
+      
+        <span class='type'>(<tt>Integer</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>Le niveau</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+282
+283
+284
+285
+286</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 282</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_supprimerFichierSauvegarde'>supprimerFichierSauvegarde</span><span class='lparen'>(</span><span class='id identifier rubyid_id'>id</span><span class='rparen'>)</span>
+	<span class='id identifier rubyid_path'>path</span><span class='op'>=</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>./ressources/maps/Aventure/</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_id'>id</span><span class='embexpr_end'>}</span><span class='tstring_content'>save.txt</span><span class='tstring_end'>&quot;</span></span>
+	<span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_delete'>delete</span><span class='lparen'>(</span><span class='id identifier rubyid_path'>path</span><span class='rparen'>)</span> <span class='kw'>if</span> <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_exist?'>exist?</span><span class='lparen'>(</span><span class='id identifier rubyid_path'>path</span><span class='rparen'>)</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="supprimerFichiersSauvegarde-instance_method">
+  
+    #<strong>supprimerFichiersSauvegarde</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Dans le cas d&#39;une remise à zéro, permet de détruire tous les fichiers de sauvegarde.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+271
+272
+273
+274
+275
+276</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'src/Menu/Adventure.rb', line 271</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_supprimerFichiersSauvegarde'>supprimerFichiersSauvegarde</span><span class='lparen'>(</span><span class='rparen'>)</span>
+	<span class='kw'>for</span> <span class='id identifier rubyid_i'>i</span> <span class='kw'>in</span> <span class='int'>0</span><span class='op'>..</span><span class='int'>8</span>
+		<span class='id identifier rubyid_supprimerFichierSauvegarde'>supprimerFichierSauvegarde</span><span class='lparen'>(</span><span class='id identifier rubyid_i'>i</span><span class='rparen'>)</span>
+	<span class='kw'>end</span>
+	<span class='kw'>return</span> <span class='kw'>self</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Wed Apr 21 21:53:22 2021 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.26 (ruby-2.7.2).
+</div>
+
+    </div>
+  </body>
+</html>

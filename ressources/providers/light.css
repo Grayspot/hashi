@@ -1,0 +1,492 @@
+@import url("dark.css");
+
+@define-color lightHoverBon #008000;
+@define-color lightBackground #FFFFFF;
+@define-color lightErreur #FF0000;
+@define-color lightIleFini rgba(84,84,191,0.35);
+@define-color lightAides #FFD700;
+@define-color lightFontColorBord #000000;
+
+
+#lightTitle{font-size:50px;color:@lightFontColorBord}
+#light{
+	background:@lightBackground;
+}
+
+#lightText{
+	color:@lightFontColorBord;
+}
+
+/* STYLE DES BOUTONS AVEC DU TEXTE */
+#lightBouton {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+-webkit-border-radius: 33px 33px 33px 33px;
+-moz-border-radius: 33px 33px 33px 33px;
+border: 12px solid @lightFontColorBord;padding:0px;margin:0px;min-width:0px;font-size:130%;background: @lightBackground;}
+#lightBouton:hover{border-radius: 33px 33px 33px 33px;
+-webkit-border-radius: 33px 33px 33px 33px;
+-moz-border-radius: 33px 33px 33px 33px;
+border: 12px solid @lightHoverBon;background: @lightBackground;}
+
+#lightComboBoxText{
+	color:@lightFontColorBord;
+	background: @lightBackground;
+}
+
+#lightDesc{
+	color:@lightFontColorBord;
+	font-size:130%;
+}
+
+#lightBouton:active{background: @lightBackground;}
+
+#lightCustom {padding:0px;margin:0px;border:0px;min-width:0px;font-size:20px;background: @lightBackground; color: @lightFontColorBord;}
+#lightCustom:hover{box-shadow: none;text-shadow: none;}
+#lightCustom:active{background: @lightBackground;}
+
+/* BOUTON DES CHOIX DE GRILLES */
+#lightBoutonChoixGrille {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:0px;font-size:130%;}
+#lightBoutonChoixGrille:hover{border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 6px solid @lightHoverBon;}
+
+
+/*Bouton icon*/
+#lightBtnIcon{
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 4px solid @lightFontColorBord;
+	padding:0px;margin:0px;min-width:0px;
+	font-size:220%;
+	background: @lightBackground;
+}
+
+#lightBtnIconFocusTuto{
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 4px solid #3B4AD4;
+	padding:0px;margin:0px;min-width:0px;
+	font-size:220%;
+	background: @lightBackground;
+}
+
+#lightBtnIconFocus{
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 4px solid #D4AF37;
+	padding:0px;margin:0px;min-width:0px;
+	font-size:220%;
+	background: @lightBackground;
+}
+
+#lightBtnIcon:hover{
+	border: 4px solid @lightHoverBon;
+	background: @lightBackground;
+}
+
+#lightBtnDisable{
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 4px solid #D3D3D3;
+	padding:0px;margin:0px;min-width:0px;
+	font-size:220%;
+	background: @lightBackground;
+}
+
+
+/*
+	ÎLE DIFFERENTES COULEUR
+*/
+#lightCircle{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	border: 5px solid @lightFontColorBord;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	background: @lightBackground;
+	color: @lightFontColorBord;
+}
+#lightCircle:hover{box-shadow: none;text-shadow: none;transition: 0s;background: @lightBackground; color: @lightFontColorBord;}
+
+#lightCircleGold{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	border: 5px solid @lightAides;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	background: @lightBackground;
+	color: @lightFontColorBord;
+}
+
+#lightCircleRed{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	border: 5px solid @lightErreur;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	background: @lightBackground;
+	color: @lightFontColorBord;
+}
+#lightCircleRed:hover{box-shadow: none;text-shadow: none;transition: 0s;background: @lightBackground; color: @lightFontColorBord;}
+
+#lightCircleGreen{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	border: 5px solid @lightHoverBon;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	background: @lightBackground;
+	color: @lightFontColorBord;
+}
+#lightCircleGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;background: @lightBackground; color: @lightFontColorBord;}
+
+#lightCircleEnd{
+	border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	background: @lightIleFini;
+	border: 5px solid #000000;
+	padding:0px;margin:0px;min-width:0px;font-size:130%;
+	transition: 0s;
+	color: @lightFontColorBord;
+	border-color: @lightFontColorBord;
+}
+#lightCircleEnd:hover{box-shadow: none;text-shadow: none;transition: 0s;background: @lightIleFini; color: @lightFontColorBord;border-color: @lightFontColorBord;}
+
+/*
+	LIEN NOIR
+*/
+#lightLineHor{
+	background-image:url("../../assets/Grille/link/light1hor.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineHor:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#lightLineDoubleHor{
+	background-image:url("../../assets/Grille/link/light2hor.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineDoubleHor:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+
+#lightLineDoubleVer{
+	background-image:url("../../assets/Grille/link/light2ver.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+
+}
+#lightLineDoubleVer:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#lightLineVer{
+	background-image:url("../../assets/Grille/link/light1ver.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineVer:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+
+/*
+	LIEN GRIS - ESPACEMENT
+*/
+#lightLineHorGray{
+	background-image:url("../../assets/Button/spacinghor.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineHorGray:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+#lightLineVerGray{
+	background-image:url("../../assets/Button/spacingver.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineVerGray:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+/*
+	LIEN VERT
+*/
+#lightLineHorGreen{
+	background-image:url("../../assets/Grille/link/light1horgreen.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineHorGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#lightLineDoubleHorGreen{
+	background-image:url("../../assets/Grille/link/light2horgreen.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineDoubleHorGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#lightLineVerGreen{
+	background-image:url("../../assets/Grille/link/light1vergreen.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineVerGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+#lightLineDoubleVerGreen{
+	background-image:url("../../assets/Grille/link/light2vergreen.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineDoubleVerGreen:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+/*
+	LIEN ROUGE
+*/
+#lightLineHorRed{
+	background-image:url("../../assets/Grille/link/1horred.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineHorRed:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+#lightLineDoubleHorRed{
+	background-image:url("../../assets/Grille/link/2horred.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineDoubleHorRed:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+#lightLineDoubleVerRed{
+	background-image:url("../../assets/Grille/link/2verred.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineDoubleVerRed:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+#lightLineVerRed{
+	background-image:url("../../assets/Grille/link/1verred.svg");
+	border:0px;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	transition: 0s;
+}
+#lightLineVerRed:hover{box-shadow: none;text-shadow: none;transition: 0s;}
+
+
+
+
+#hide{opacity:0;padding:0px;margin:0px;border:0px;min-width:0px;font-size:20px}
+
+
+/*
+/ ADVENTURE BUTTONS CSS
+*/
+#lightUnderButton {color: @lightFontColorBord;;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background: @lightBackground;
+
+}
+#lightUnderButton:hover{border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 6px solid @lightHoverBon;
+	background: @lightBackground;
+	color: @lightFontColorBord;
+}
+
+#lightBoutonAdv {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 9px solid @lightFontColorBord;padding:0px;margin:0px;min-width:0px;font-size:130%;
+	background: @lightBackground;
+}
+#lightBoutonAdv:hover{border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	border: 9px solid @lightHoverBon;
+	background: @lightBackground;
+	color: @lightFontColorBord;
+}
+
+
+/* AVENTURE */
+#lightPreview0 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/0.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#lightPreview1 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/1.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#lightPreview2 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/2.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#lightPreview3 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/3.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#lightPreview4 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/4.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#lightPreview5 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/5.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#lightPreview6 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/6.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#lightPreview7 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/7.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#lightPreview8 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Aventure/8.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 250px;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:280px;font-size:100%;
+}
+
+#lightPreview_tutorial {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/preview_tutorial.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#lightBt_tutorial_0 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_0.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#lightBt_tutorial_1 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_1.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#lightBt_tutorial_2 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_2.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#lightBt_tutorial_3 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_3.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
+
+#lightBt_tutorial_4 {color:@lightFontColorBord;border-radius: 33px 33px 33px 33px;
+	-webkit-border-radius: 33px 33px 33px 33px;
+	-moz-border-radius: 33px 33px 33px 33px;
+	background-image: url("../img/Tutoriel/bt_tutorial_3.png");	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 55%;
+	border: 6px solid @lightFontColorBord;padding:0px;margin:0px;min-width:280px;min-height:220px;font-size:100%;
+}
